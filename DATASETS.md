@@ -41,16 +41,6 @@ contains the expected file names and fingerprints. Readers need an approved
 copy of the files to reproduce the Chinese results. Verify the same access
 conditions for any derived inputs proposed for distribution.
 
-## Dabiri traffic input
-
-The English preparation smoke test also uses the three-class training file
-from Sina Dabiri’s [traffic-labeled tweets dataset, version 1](https://doi.org/10.17632/c3xvj5snvv.1).
-The preparation command obtains the pinned source copy and stores it at
-`data/raw/dabiri_traffic/1_TrainingSet_3Class.csv`. The loader treats it as
-a headerless UTF-8 CSV and uses the labels to define the transport population.
-This is the external English preparation input. The paper's pooled Chinese
-results use the three Chinese CSVs described above.
-
 ## Check the source files
 
 | Local path | Expected SHA-256 |
