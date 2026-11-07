@@ -1,239 +1,255 @@
-# Reproduce the manuscript results
+# Reproduce the PEBR results
 
-## Validation completed
+The commands below are for Windows PowerShell. Start in the checkout folder
+containing `main.py`. Run the numbered sections in order for the route you
+need. Each route states which inputs it expects. See [DATASETS.md](DATASETS.md)
+for corpus placement and checksums.
 
-| Check | Result | Scope |
+| Route | Inputs | Validation |
 | --- | --- | --- |
-| Windows preparation smoke test | 97 tests passed and both 32-post English samples prepared | Fresh English input downloads, preprocessing and candidate preparation |
-| REALM-inspired comparison | 20 fits completed and the four-row summary matched the accepted CSV byte for byte | Five seeds with the original project's verified saved inputs |
-| Local input audit | 464 checksums matched and 122 additional entries were present | Audited files on the original machine |
-| Step 9 publication replay | All 106 assets generated. 101 matched byte for byte. Five PDF hashes differed and the corresponding PNGs matched byte for byte | Exports from saved numerical inputs. Figure PDF differences were recorded by file hash |
+| Fresh checkout | Git checkout, Python 3.10 and network access to the pinned English sources | English preparation smoke test passed with 97 tests and two 32-post samples |
+| Replay from archived inputs | Accepted project artifacts from the original machine | REALM-inspired comparison reproduced all 20 fits and the exact summary CSV. Step 9 regenerated all 106 publication assets |
+| Full historical workflow | Authorized corpora, historical assets and checkpoints, accepted stage receipts, and the producing numerical environment | Commands below identify each stage. A fresh raw-data-to-paper run remains to be verified |
 
-The REALM-inspired summary SHA-256 is
-`485cf3e718e160b84c7b89537d85d18a31ae08d091cf3ab9d1f5f8bd8cf90593`.
-A full raw-data-to-results run in a new checkout remains to be verified.
+## 1. Verify the checkout and prepare English smoke-test inputs
 
-## Local check on Windows
-
-Extract the candidate into `Downloads\PEBR_Release_Candidate`. Open the
-original PyCharm project terminal, at the folder containing the original
-`main.py` and `outputs`. Use the same interpreter as the accepted runs.
-
-```powershell
-$bundle = Join-Path $env:USERPROFILE 'Downloads\PEBR_Release_Candidate'
-$work = (Get-Location).Path
-$py = Join-Path $env:LOCALAPPDATA 'Programs\Python\Python310\python.exe'
-if (-not (Test-Path -LiteralPath $py)) { $py = (Get-Command python -ErrorAction Stop).Source }
-& $py (Join-Path $bundle 'verify_release.py')
-if ($LASTEXITCODE -ne 0) { throw 'Release checksum check failed.' }
-$env:OMP_NUM_THREADS = '1'
-& $py (Join-Path $bundle 'pebr_chinese_published_baselines\run_benchmark.py') --project-root $work --mode preflight
-if ($LASTEXITCODE -ne 0) { throw 'Chinese baseline preflight failed.' }
-& $py (Join-Path $bundle 'pebr_ntm_step1\run_pebr_ntm.py') --project-root $work --mode preflight
-if ($LASTEXITCODE -ne 0) { throw 'ProdLDA preflight failed.' }
-```
-
-The two preflights use the staged source with the original project's existing
-inputs. They create preflight records and perform no new fitting. This checks
-the recovered source versions on the laptop. The clean-checkout test is a
-separate milestone.
-
-## Clean Windows preparation smoke test
-
-Extract the updated ZIP into a new `Downloads\PEBR_Clean_Test` folder.
-Use this copy for the smoke test so the runner starts without data, assets,
-caches or outputs from the original PyCharm project.
-
-```powershell
-$clean = Join-Path $env:USERPROFILE 'Downloads\PEBR_Clean_Test\PEBR_Release_Candidate'
-$py = Join-Path $env:LOCALAPPDATA 'Programs\Python\Python310\python.exe'
-if (-not (Test-Path -LiteralPath $py)) { $py = (Get-Command python -ErrorAction Stop).Source }
-Set-Location -LiteralPath $clean -ErrorAction Stop
-& $py .\verify_release.py
-if ($LASTEXITCODE -ne 0) { throw 'Release checksum check failed.' }
-& $py -m venv .venv
-if ($LASTEXITCODE -ne 0) { throw 'Virtual environment creation failed.' }
-$smokePy = Join-Path $clean '.venv\Scripts\python.exe'
-& $smokePy -m pip install -r requirements.txt numpy==1.26.4 scipy==1.13.1 scikit-learn==1.5.2 tokenizers==0.19.1 onnxruntime==1.22.1
-if ($LASTEXITCODE -ne 0) { throw 'Smoke-test dependency installation failed.' }
-& $smokePy .\main.py --config configs/experiments/corpus_smoke.yaml --mode run --device cpu --no-install
-if ($LASTEXITCODE -ne 0) { throw 'Corpus preparation smoke test failed.' }
-```
-
-The preparation runner downloads and verifies the two English input files and
-the frozen encoder assets. It prepares small samples and logs `COLLECTION COMPLETE`
-for `primary_smoke` and `external_smoke`. This check exercises input acquisition
-and preprocessing on CPU. Model fitting and paper-result comparisons are separate
-checks. The smoke test creates local `data`, `assets`, `cache`, `logs` and `outputs`
-directories, which are excluded from Git.
-
-## Accepted runs
-
-| Group | Completed run | Fits |
-| --- | --- | ---: |
-| Core Step 9 | `s9_f9c03fbcc688` | See table-specific run maps |
-| English published baselines | `full_a78f98dc4b66` | 15 |
-| Chinese published baselines | `full_5d8ff968911c` | 15 |
-| REALM-inspired control | `full_20261106T034651308273Z` | 20 |
-| ProdLDA | `full_7bd73b016645` | 30 |
-
-The extension summaries under `reference_results/` match the reviewed
-archives. The core CSVs are selected aggregate references. Case-level
-data and the underlying models are separate inputs. Stage 4 belongs to
-development provenance. Stage 5 provides the manuscript's fresh-bank runs.
-
-## Replay the verified comparison and publication exports
-
-Run these from the repository root on the Windows machine with the accepted
-project. Use the interpreter from that project's accepted run for the export
-step. The publication exporter uses NumPy 1.26.4, SciPy 1.13.1 and Matplotlib
-3.9.2. The first command writes a small audit report, the comparison writes
-new fits under this checkout, and the publication replay writes to a separate
-folder under Downloads.
+Use a fresh checkout for this test. The following installs dependencies
+into a virtual environment inside the checkout.
 
 ```powershell
 $release = (Get-Location).Path
-$project = Join-Path $env:USERPROFILE 'PycharmProjects\proposed'
-$py = Join-Path $env:LOCALAPPDATA 'Programs\Python\Python310\python.exe'
-$stamp = Get-Date -Format 'yyyyMMdd_HHmmss_fff'
+$python310 = Join-Path $env:LOCALAPPDATA 'Programs\Python\Python310\python.exe'
+if (-not (Test-Path -LiteralPath $python310)) {
+    $python310 = (Get-Command python -ErrorAction Stop).Source
+}
 
-$audit = Join-Path $env:TEMP ('pebr_full_reproduction_' + $stamp + '.json')
-& $py -B .\tools\audit_inputs.py --project-root $project --out $audit
-if ($LASTEXITCODE -ne 0) { throw "Review the audit at $audit" }
+function Invoke-PEBR {
+    & $py @args
+    if ($LASTEXITCODE -ne 0) { throw "PEBR command failed with exit code $LASTEXITCODE" }
+}
 
+$py = $python310
+Invoke-PEBR -B .\verify_release.py
+Invoke-PEBR -m venv .venv
 $smokePy = Join-Path $release '.venv\Scripts\python.exe'
-& $smokePy -m pip install -r .\pebr_marginal_likelihood_benchmark\requirements.txt
-if ($LASTEXITCODE -ne 0) { throw 'Benchmark dependency installation failed.' }
+$py = $smokePy
+Invoke-PEBR -m pip install -r requirements.txt numpy==1.26.4 scipy==1.13.1 scikit-learn==1.5.2 tokenizers==0.19.1 onnxruntime==1.22.1
+Invoke-PEBR .\main.py --config configs/experiments/corpus_smoke.yaml --mode run --device cpu --no-install
+```
+
+The preparation logs should show `COLLECTION COMPLETE` for `primary_smoke`
+and `external_smoke`. The runner downloads the two pinned English source
+files and the English encoder assets if needed. This exercise checks
+preparation. It uses sample sizes of 32 posts and produces no manuscript fits.
+
+## 2. Locate and audit the accepted local inputs
+
+Run this in the same PowerShell session. Enter the original project
+directory containing `main.py` and the accepted `outputs` when prompted.
+For the manuscript's archived Windows runs the interpreter was Python
+3.10.9. If that interpreter is elsewhere, set `$python310` to its full path.
+
+```powershell
+$project = (Resolve-Path -LiteralPath (Read-Host 'Original PEBR project folder') -ErrorAction Stop).Path
+$py = $python310
+$stamp = Get-Date -Format 'yyyyMMdd_HHmmss_fff'
+$audit = Join-Path $env:TEMP ('pebr_full_reproduction_' + $stamp + '.json')
+Invoke-PEBR -B (Join-Path $release 'tools\audit_inputs.py') --project-root $project --out $audit
+```
+
+The archived audit passed with 464 matching checksums and 122 additional
+entries present. A missing or changed entry means the corresponding
+prerequisite needs to be restored before using the replay commands.
+
+## 3. Replay the verified REALM-inspired comparison and Step 9 exports
+
+### REALM-inspired comparison
+
+This runs all five final seeds for the four comparison methods. It reads the
+accepted mask bank, reference cache, corpus and actions from the receipt and
+writes new results under the checkout's `outputs/pebr_extensions/`.
+
+```powershell
+$py = $smokePy
+Invoke-PEBR -m pip install -r (Join-Path $release 'pebr_marginal_likelihood_benchmark\requirements.txt')
 $receiptPath = Join-Path $project 'outputs\pebr_extensions\marginal_likelihood_retrieval\full_20261106T034651308273Z\run_manifest.json'
 $receipt = Get-Content -LiteralPath $receiptPath -Raw -ErrorAction Stop | ConvertFrom-Json
 if ($receipt.status -ne 'complete' -or $receipt.fits -ne 20) { throw 'Accepted comparison receipt is incomplete.' }
 $inputs = $receipt.inputs
-& $smokePy .\pebr_marginal_likelihood_benchmark\run_benchmark.py `
+Invoke-PEBR (Join-Path $release 'pebr_marginal_likelihood_benchmark\run_benchmark.py') `
     --project-root $release --mode full `
     --data-root $inputs.prepared_corpus --mask-bank $inputs.mask_bank `
     --query-cache (Split-Path -Parent $inputs.visible_query_cache) `
     --reference-cache (Split-Path -Parent $inputs.reference_fits.'0') `
     --pebr-actions $inputs.default_pebr_actions
-if ($LASTEXITCODE -ne 0) { throw 'REALM-inspired comparison failed.' }
-
-$out = Join-Path $env:USERPROFILE ('Downloads\PEBR_Publication_Replay_' + $stamp)
-& $py -B .\tools\pebr_rebuild_publication_assets.py --project-root $project --release-root $release --out $out
-if ($LASTEXITCODE -ne 0) { throw "Review the publication replay in $out" }
 ```
 
-Compare the new `summary.csv` from the comparison with
-`reference_results/realm_inspired/summary.csv`. The publication check writes
-`publication_replay_report.json` in its destination. It regenerates the Step 9
-exports and preserves the saved original files. It uses the original Windows
-project for the saved loss histories referenced by the archived results.
+Compare the generated `summary.csv` with
+[`reference_results/realm_inspired/summary.csv`](reference_results/realm_inspired/summary.csv).
+Both files had SHA-256
+`485cf3e718e160b84c7b89537d85d18a31ae08d091cf3ab9d1f5f8bd8cf90593`
+in the verified Windows replay.
 
-## Manuscript result map
+### Step 9 tables and figures
 
-| Manuscript item | Archived producer or input |
+The archived interpreter needs NumPy 1.26.4, SciPy 1.13.1 and Matplotlib
+3.9.2 for this export. The script reads the accepted numerical outputs
+and original saved loss histories and writes into a new directory.
+
+```powershell
+$py = $python310
+$out = Join-Path $env:USERPROFILE ('Downloads\PEBR_Publication_Replay_' + (Get-Date -Format 'yyyyMMdd_HHmmss_fff'))
+Invoke-PEBR -B (Join-Path $release 'tools\pebr_rebuild_publication_assets.py') --project-root $project --release-root $release --out $out
+```
+
+Inspect `publication_replay_report.json` in the new output directory.
+The verified run generated 106 of 106 assets. Of these, 101 matched byte for
+byte. The five differing files were PDFs, and their companion PNGs matched
+byte for byte.
+
+## 4. Run the historical manuscript stages
+
+Use an isolated working project with the authorized raw inputs, prepared
+collections, historical baseline checkpoints, encoder assets and receipts.
+Check the archived file paths before replaying a relocated project. These
+commands use the producing interpreter and write reports and new results
+into the working project's output tree. The original archive used PyTorch
+2.7.0+cu128 with the numerical versions recorded by the stage receipts.
+The CUDA-dependent stages require a compatible CUDA environment.
+
+The historical audit and closeout consume completed earlier project runs.
+The later stage gates verify specific predecessors and their artifacts. A
+checkout with only the source files or raw CSVs cannot supply those inputs.
+See [release_provenance.json](release_provenance.json) for the pinned
+GloCOM and kNNTM source revision, expected paths and checksums. See
+[DATASETS.md](DATASETS.md) for the current Chinese data access status.
+
+First set the working path. Use the same PowerShell session as Section 1
+so that `Invoke-PEBR`, `$release` and `$python310` are available.
+
+```powershell
+$work = (Resolve-Path -LiteralPath (Read-Host 'Isolated PEBR working project folder') -ErrorAction Stop).Path
+if ($work -eq $project -or $work -eq $release) { throw 'Choose a separate working project.' }
+$py = $python310
+$env:CUBLAS_WORKSPACE_CONFIG = ':4096:8'
+```
+
+Run each block in order, checking its output before moving to the next.
+The revision sequence uses the fresh-selection stage after the fixed-cap
+candidate stage. Development-only Step 4 is outside the manuscript workflow.
+
+The historical source pipelines can be run separately when the working
+project has its original configurations and input assets. The Chinese
+configuration requires the approved CSVs, the fixed stopword file and
+the encoder manifest. These entry points create new run IDs. The
+manuscript gates still require the accepted predecessor identities.
+
+```powershell
+Invoke-PEBR (Join-Path $work 'main.py') --config configs/experiments/corpus_preparation.yaml --mode run
+Invoke-PEBR (Join-Path $work 'main.py') --config configs/experiments/full_study.yaml --mode run
+Invoke-PEBR (Join-Path $work 'main.py') --config configs/chinese/full_study.yaml --mode check
+Invoke-PEBR (Join-Path $work 'main.py') --config configs/chinese/full_study.yaml --mode run
+```
+
+### 4.1 Audit and freeze the historical inputs
+
+```powershell
+Invoke-PEBR (Join-Path $release 'pebr_step1_audit.py') --project-root $work
+Invoke-PEBR (Join-Path $release 'pebr_step1_closeout.py') --project-root $work
+Invoke-PEBR (Join-Path $release 'pebr_step2_prepare.py') --project-root $work
+```
+
+### 4.2 Run the default-bank comparison and revised fixed-cap candidate
+
+```powershell
+Invoke-PEBR (Join-Path $release 'pebr_step3_run.py') --project-root $work --mode compare
+Invoke-PEBR (Join-Path $release 'pebr_export_lab_inputs.py') --project-root $work
+Invoke-PEBR (Join-Path $release 'pebr_revised_rule.py') --project-root $work --mode candidate
+```
+
+### 4.3 Run fresh selection, protected-word checks and fold sensitivity
+
+```powershell
+Invoke-PEBR (Join-Path $release 'pebr_validate_revised_selection.py') --project-root $work --mode preflight
+Invoke-PEBR (Join-Path $release 'pebr_validate_revised_selection.py') --project-root $work --mode run
+Invoke-PEBR (Join-Path $release 'pebr_step6_protected_words.py') --project-root $work --mode preflight
+Invoke-PEBR (Join-Path $release 'pebr_step6_protected_words.py') --project-root $work --mode run
+Invoke-PEBR (Join-Path $release 'pebr_step7_audit.py') --project-root $work
+Invoke-PEBR (Join-Path $release 'pebr_step8_robustness.py') --project-root $work --mode preflight
+Invoke-PEBR (Join-Path $release 'pebr_step8_robustness.py') --project-root $work --mode run
+```
+
+### 4.4 Run the Step 9 analyses and export
+
+```powershell
+Invoke-PEBR (Join-Path $release 'pebr_step9_complete.py') --project-root $work --phase preflight
+Invoke-PEBR (Join-Path $release 'pebr_step9_complete.py') --project-root $work --phase all
+```
+
+The accepted Step 9 result is
+`outputs/revision_rule_lab/completion9/s9_f9c03fbcc688`. Look in its
+`publication_assets/` directory. For phase-level execution the runner accepts
+`benchmarks`, `parameters`, `sizes`, `runtime`, `retrieval` and `assets`.
+The runtime table describes the original machine. New timings are new
+measurements.
+
+## 5. Run the final extensions
+
+The recorded full runs used CPU. Use the producing environment and the
+staged working project from Section 4. The English and Chinese neural
+baseline requirements are in their runner directories. Their preflights
+verify the corpus and baseline sources. The REALM-inspired and ProdLDA
+runners also verify the saved inputs they use.
+
+```powershell
+$py = $python310
+$env:OMP_NUM_THREADS = '1'
+
+Invoke-PEBR (Join-Path $release 'pebr_published_baseline_benchmark\run_benchmark.py') --project-root $work --mode preflight --device cpu
+Invoke-PEBR (Join-Path $release 'pebr_published_baseline_benchmark\run_benchmark.py') --project-root $work --mode full --device cpu
+
+Invoke-PEBR (Join-Path $release 'pebr_chinese_published_baselines\run_benchmark.py') --project-root $work --mode preflight --device cpu
+Invoke-PEBR (Join-Path $release 'pebr_chinese_published_baselines\run_benchmark.py') --project-root $work --mode full --device cpu
+
+Invoke-PEBR (Join-Path $release 'pebr_marginal_likelihood_benchmark\run_benchmark.py') --project-root $work --mode preflight
+Invoke-PEBR (Join-Path $release 'pebr_marginal_likelihood_benchmark\run_benchmark.py') --project-root $work --mode full
+
+Invoke-PEBR (Join-Path $release 'pebr_ntm_step1\run_pebr_ntm.py') --project-root $work --mode preflight --device cpu
+Invoke-PEBR (Join-Path $release 'pebr_ntm_step1\run_pebr_ntm.py') --project-root $work --mode full --device cpu
+```
+
+The runners print the generated output directories under
+`outputs/pebr_extensions/`. The following table identifies the archived
+full runs and the corresponding aggregate references.
+
+| Extension | Accepted run | Fits | Reference |
+| --- | --- | ---: | --- |
+| English EnCOT, FASTopic and NeuroMax | `full_a78f98dc4b66` | 15 | [English summary](reference_results/english_baselines/summary.csv) |
+| Chinese EnCOT, FASTopic and NeuroMax | `full_5d8ff968911c` | 15 | [Chinese summary](reference_results/chinese_baselines/summary.csv) |
+| REALM-inspired comparison | `full_20261106T034651308273Z` | 20 | [REALM-inspired summary](reference_results/realm_inspired/summary.csv) |
+| ProdLDA | `full_7bd73b016645` | 30 | [ProdLDA summary](reference_results/prodlda/summary.csv) |
+
+## Map runs to manuscript results
+
+| Manuscript item | Producing stage |
 | --- | --- |
 | Main Table I and Supplement S1 | Frozen Step 2 preparation and original corpus configuration |
-| Main Table II and Supplement S2–S3 benchmark tables | Step 9 benchmark grid and neural budget check, plus both published-baseline runners for EnCOT, FASTopic and NeuroMax at K=12 |
-| Main Table III and Chinese policy table in S3 | Fixed-cap PEBR and its controls, with the K=12 mask-3711 replay. The primary one-donor rows use the separate REALM-inspired benchmark |
-| Supplement S3.1 | ProdLDA with original, matched-sharing and PEBR targets, five final seeds on both corpora |
+| Main Table II and Supplement S2–S3 benchmark tables | Step 9 benchmark grid and neural budget check, plus both published-baseline runs at K=12 |
+| Main Table III and the S3 Chinese policy table | Fixed-cap PEBR and its controls, using the K=12 mask-3711 replay. The primary one-donor rows come from the REALM-inspired comparison |
+| Supplement S3.1 | ProdLDA with original, matched-sharing and PEBR targets across five seeds on both corpora |
 | Main Tables IV–V and Supplement S4–S5 | Fresh-selection summaries and Step 8 reference/fold checks |
 | Main Table VI, Fig. 1 and Supplement S7.1 | Step 9 parameter and nested-size runs |
 | Main Table VII and Supplement S6–S7.3 | Protected-word audit, transport evidence ledgers, original-post topic readout and recurrence |
 | Supplement S8 | Step 9 runtime phase and recorded hardware |
 
-The final borrowing policy is identified as `preserve_forward_fixed_cap`. In
-the historical audit tree, `proposed` identifies a different rule. Archive
-the accepted frozen source and the final runner revisions separately from the
-mutable project root. The independently reviewed Step 9 workspace was
-`outputs/revision_rule_lab/completion9/s9_f9c03fbcc688` and used the Step 8
-replay at `outputs/revision_rule_lab/robustness8/s8_eeadcb7a250a`. The stage 2 receipts identify all four final extension runs.
+The manuscript policy is `preserve_forward_fixed_cap`. The historical
+audit label `proposed` identifies an earlier rule. Selected core aggregate
+references are in [`reference_results/core/`](reference_results/core).
 
-## Resolve inputs and permissions
+## Independent reproduction status
 
-| Input | Recorded source and placement | Prepared size |
-| --- | --- | --- |
-| Transport-grievance | [Source project](https://github.com/sohampoddar26/indian-transport-snam). The configuration expects `data/raw/indian_transport/grievance.csv` | 619 posts, 1,296 terms |
-| Pooled Chinese transport | Local `data/raw/chinese_transport/` with `beijing.csv`, `shanghai.csv` and `xiamen.csv` in that order. Confirm the authoritative origin, release permission and access route | 2,053 posts, 5,002 terms |
-
-For each corpus, record the citation, revision or access date, file SHA-256,
-encoding, source-row order, text column, preparation configuration, and terms
-of access and redistribution. Include the vocabulary, split and input hashes
-in the release manifest. Use the approved access route for raw text and any
-text-derived artifacts. Publish synthetic fixtures and cleared aggregate
-outputs in the repository. Record pinned upstream revisions, input checksums and
-download instructions for external encoders, embeddings and baseline sources.
-Select the software license with the authors or institution. Dataset and
-third-party rights are separate from the project software license.
-
-## Recorded experiment commands
-
-These entry points are recorded in the archived runner documentation. Use
-them from an assembled release only after the input paths, predecessor
-manifests and environment have been tested in a new checkout. The old audit
-stages consume existing historical artifacts. For a public clean clone we must
-provide a supported way to generate each dependency or obtain a verified,
-shareable input bundle. Pin the accepted run directories explicitly wherever
-a runner provides that option. Run the historical training commands in a
-separate project workspace because they write phase reports into its output
-tree.
-
-### Historical provenance and core experiments
-
-```powershell
-& $py .\pebr_step1_audit.py --project-root .
-& $py .\pebr_step1_closeout.py --project-root .
-& $py .\pebr_step2_prepare.py --project-root .
-& $py .\pebr_step3_run.py --project-root . --mode compare
-& $py .\pebr_export_lab_inputs.py --project-root .
-& $py .\pebr_revised_rule.py --project-root . --mode candidate
-& $py .\pebr_validate_revised_selection.py --project-root .
-& $py .\pebr_step6_protected_words.py --project-root .
-& $py .\pebr_step7_audit.py --project-root .
-& $py .\pebr_step8_robustness.py --project-root .
-$env:CUBLAS_WORKSPACE_CONFIG = ':4096:8'
-& $py .\pebr_step9_complete.py --project-root . --phase preflight
-& $py .\pebr_step9_complete.py --project-root . --phase all
-```
-
-Step 9 also exposes `benchmarks`, `parameters`, `sizes`, `runtime`,
-`retrieval` and `assets` as `--phase` options. The runtime table records the
-original machine. Compare the procedure and backend on a new machine, with
-elapsed times reported as new measurements.
-
-### Final extensions
-
-Use the interpreter and device recorded in each accepted run receipt.
-The archived command lines below use each runner's default device. Confirm
-those defaults against the accepted run before freezing the public commands.
-
-```powershell
-& $py .\pebr_published_baseline_benchmark\run_benchmark.py --project-root . --mode preflight
-& $py .\pebr_published_baseline_benchmark\run_benchmark.py --project-root . --mode full
-& $py .\pebr_chinese_published_baselines\run_benchmark.py --project-root . --mode preflight
-& $py .\pebr_chinese_published_baselines\run_benchmark.py --project-root . --mode full
-& $py .\pebr_marginal_likelihood_benchmark\run_benchmark.py --project-root . --mode preflight
-& $py .\pebr_marginal_likelihood_benchmark\run_benchmark.py --project-root . --mode full
-& $py .\pebr_ntm_step1\run_pebr_ntm.py --project-root . --mode preflight
-& $py .\pebr_ntm_step1\run_pebr_ntm.py --project-root . --mode full
-```
-
-All four extension runners also accept `--mode smoke`. Use smoke outputs
-to check installation and execution. Verify paper results against the full
-runs and their accepted configurations.
-
-## Clean-checkout release gate
-
-Provision an environment pinned to the producing manifests. The archived
-Windows runs used Python 3.10.9 and PyTorch 2.7.0+cu128. The extension runs
-recorded CPU execution. The core historical chain also uses pinned assets and
-validated predecessor artifacts. Start with the accepted inputs and explicitly
-record the acquisition or bootstrap route for a new user.
-
-The four native GloCOM/kNNTM Python files are external source dependencies.
-Use the commit and per-file digests in release_provenance.json for exact
-acquisition, then match the required project-relative paths. Keep separately
-managed data, weights and archived intermediate outputs out of the repository.
-
-Confirm source and access terms for the pooled Chinese data before publication.
-Rebuild and compare each claimed result family, including figure inputs,
-with the accepted references using documented numerical tolerances.
-Record the actual checks performed. Then prepare the GitHub release.
+A fresh raw-data-to-paper run requires an authorized access route to the
+Chinese source files and a verified way to obtain or rebuild the pinned
+historical inputs. The saved-input replays above document the checks
+completed so far. The data access and redistribution terms are tracked
+separately from the code and its dependencies.
