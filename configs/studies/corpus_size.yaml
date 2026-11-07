@@ -1,0 +1,15 @@
+# Execution Foundation: validated configuration; future stages are gated.
+studies:
+  corpus_size:
+    enabled: true
+    sizes:
+    - 100
+    - 200
+    - 400
+    - 600
+    sample_indices:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4

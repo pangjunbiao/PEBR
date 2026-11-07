@@ -1,0 +1,77 @@
+{
+  "policy": "preserve_forward_fixed_cap",
+  "core_snapshot": "20261101T095053677062Z_d25536e042_b3f523",
+  "core_results": "s9_f9c03fbcc688",
+  "extensions": {
+    "english_baselines": {
+      "run": "outputs/pebr_extensions/published_baseline_benchmark/full_a78f98dc4b66",
+      "fits": 15,
+      "device": "cpu",
+      "producing_source_sha256": {
+        "existing_seed_metrics.csv": "16b3f38d6f569ccfd46e64b0a5bd56b0a0cf81fca17d54cd01bd7454c59dd5c3",
+        "existing_summary.csv": "20d76a01f916f0d8f472eb43388a8dd59ef649b8f8c44b6ab4d590376ea58aa3",
+        "inputs.py": "3018525558ecd4855ff3c461b4fad635c52b0b4ca493b478c9943100b46d5fc2",
+        "protocol_inputs.json": "3fb99d4b51a0ba78063d3d2320d032cf30eccd6715536b5d43f84a42e4e18789",
+        "run_benchmark.py": "f55e1e79e1b09ba8ce05fe73f8f2cd953f382862368d45213330d889509197f1",
+        "stability.py": "2a9462cbefd82ba1b7ff6ddb821e8c2e14afa898f2563b1f9d71f864a6c917dc",
+        "topic_quality.py": "60e8d2beb47d85bbe5e642d1587fcb1ed0515bfa28eba7f374e0f727b5ad9740",
+        "upstream.py": "2e3b460398d4de6e330faf3cb1af7a3e7574ba7144b9328a1be4102f9b7146c2"
+      }
+    },
+    "chinese_baselines": {
+      "run": "outputs/pebr_extensions/published_baseline_benchmark/chinese_pooled/full_5d8ff968911c",
+      "fits": 15,
+      "device": "cpu",
+      "producing_source_sha256": {
+        "inputs.py": "5bcebe8f26cc4f175cca4a0b4607662eb6bcb713c5a95aac832c86e5314c79f9",
+        "protocol_inputs.json": "822f7b1fc776b0ebc3e3d0c9de1d4c55a1e871c1c1852666eecc4daa869b074a",
+        "run_benchmark.py": "3edc516ab5374b81913ab73e8ad980000403da47a2edd0529387960ada1df458",
+        "stability.py": "2a9462cbefd82ba1b7ff6ddb821e8c2e14afa898f2563b1f9d71f864a6c917dc",
+        "topic_quality.py": "60e8d2beb47d85bbe5e642d1587fcb1ed0515bfa28eba7f374e0f727b5ad9740",
+        "upstream.py": "2e3b460398d4de6e330faf3cb1af7a3e7574ba7144b9328a1be4102f9b7146c2"
+      }
+    },
+    "realm_inspired": {
+      "run": "outputs/pebr_extensions/marginal_likelihood_retrieval/full_20261106T034651308273Z",
+      "fits": 20,
+      "device": null,
+      "producing_source_sha256": {
+        "inputs.py": "5efe99e78f2ebb3543876c8baca3abe755c8d2fcc2ba824975c564cbbb5424a4",
+        "pebr_core/data/preprocessing.py": "a136f041fa1a44bd885fbf2825383bfc8e2c802b0ad519360e00b18bbbceac59",
+        "pebr_core/numerics/nmf.py": "cd189b8a0017d425b9e9afd961005f70bf40eaed393b672173fc348655167062",
+        "pebr_core/numerics/nnls.py": "1607c0914e162094b6769f1f0d1cb229a5b7453f3d93f6366de5125b329f84ff",
+        "pebr_core/proposed/actions.py": "324210685d8e4993440757fd28704ceaa810495bccad6689df9d1f26c0ae86c4",
+        "pebr_core/proposed/candidates.py": "18bab1a99f7ac29b4d29613f0d8565f43d8111a70e619d82e728b48eceeef4e9",
+        "pebr_core/proposed/masks.py": "d2f73f60f975e3f6a960d068dc2c77e888dcfb7288ac818300d4254db6181bbf",
+        "pebr_core/proposed/reference.py": "aa71ca78f522255f93140e2d662b9f4c7e3f74cc482373215aa41f6080e7d7bc",
+        "pebr_core/proposed/scoring.py": "5d73b20c1b24ec36dc1824143c624dcb09e92a15734fb96b89226a139d0b1508",
+        "pebr_core/proposed/search.py": "a94629aefe4bf43d87d897dd6f3e39e676c01a9bc2ec5c53ed9a9e684bd82df7",
+        "pebr_core/proposed/transfer.py": "4d6afa385998f252e2ce5ef87538d18ef1b150123a7b72f2204e077a6beedffc",
+        "pebr_core/representations/tfidf.py": "9bc0f4e42e4da843bd9dab465ba1b8c90573ae812c4b0813fa86fd30205c200a",
+        "run_benchmark.py": "ba26ee789324e8602914eb20c6619d34873aacabb33e0f71147cf1aaf2fc2e84",
+        "selection.py": "76c962ffd533cc3fdd5d80f49d639d8e3b942757c365e3ab2349678170ee1186",
+        "topic_quality.py": "60e8d2beb47d85bbe5e642d1587fcb1ed0515bfa28eba7f374e0f727b5ad9740"
+      }
+    },
+    "prodlda": {
+      "run": "outputs/pebr_extensions/ntm_step1/full_7bd73b016645",
+      "fits": 30,
+      "device": "cpu",
+      "producing_source_sha256": {
+        "run_pebr_ntm.py": "2d613a73220992c46a6a51437e0b629740f696635e1745aa845d898b7a262f5e",
+        "stability.py": "2a9462cbefd82ba1b7ff6ddb821e8c2e14afa898f2563b1f9d71f864a6c917dc",
+        "topic_quality.py": "60e8d2beb47d85bbe5e642d1587fcb1ed0515bfa28eba7f374e0f727b5ad9740"
+      }
+    }
+  },
+  "external_native_source": {
+    "commit": "4094055b9e2d0169b0aa75d5aed7220e9509f0de",
+    "repository": "https://github.com/qducnguyen/GloCOM",
+    "expected_paths": {
+      "third_party/published/glocom_4094055b9e2d/models/GloCOM/ECR.py": "d8e6240f1df932c636167eaf9c627e6cd243f2339758a5e9b34261917eac1259",
+      "third_party/published/glocom_4094055b9e2d/models/GloCOM/GloCOM.py": "663b4078fbd730f26f045d134bf1dea518ce7a564f01459efa22bde695df87f4",
+      "third_party/published/glocom_4094055b9e2d/models/KNNTM/KNNTM.py": "45865932d4e827aec462cd1e3cf703b80d8163d61aec92a6ee6a64f84fd327e8",
+      "third_party/published/glocom_4094055b9e2d/models/KNNTM/TopicDistQuant.py": "96847cd9386a3282c3f39cd792a25a8547e18cf0e983317ec71fa005fa1ed9e5"
+    }
+  }
+}

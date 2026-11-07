@@ -1,0 +1,5 @@
+# Full fixed-settings scientific evaluation; source tables precede publication formatting.
+experiment:
+  name: full_study
+  stage: full_study
+  mode: run

@@ -1,0 +1,25 @@
+{
+  "source_manifest": {
+    "README_STEP7.md": "4733cfb0f1b70b84e47ac587acae28af6f356c5c1b8948bef3566ee00ca2c4cf",
+    "VALIDATION_STEP7.md": "106807fb14d4b8e01f2e0a1c90b29b863aa632c83e4c3743fdeb09ec88753e03",
+    "pebr_review7/__init__.py": "49dc6fd020a89e240a2929b9b1f102a05bb14cd018d6d32177cd6ddd8f7e6a98",
+    "pebr_review7/baselines.py": "461399efa68edfc09e3223b5e1f938f36df45d44d66ca2945fd439ae6e055c2c",
+    "pebr_review7/common.py": "8d43ee240b6b247ec593ae40f80a6257725904144fca45979207809b431e8831",
+    "pebr_review7/engine.py": "cbdd1f3d346f2fbc2a273fcfcf052e6fccc2a69eaf9f1692622ef7d73c581429",
+    "pebr_review7/gate.py": "0d41c5f409141ea5b4c479d99eae170483bdac0c1dd5158e8b66e5d6986f2038",
+    "pebr_review7/native_math.py": "dc0cfc63e15de2fa3a94da35b35b15f3849c2e8b79d761bf68aac78b977744ec",
+    "pebr_review7/transport.py": "07678059b737069863cd99ffa7c61e3a74bf2a01aafe82fa9b3362ce06a3542c",
+    "pebr_step7_audit.py": "65f210cab6d6c057bf48b1ed541dbe0ec41c65bded13e566ecabe7a0c5b5f9e6",
+    "s7_accepted_step6.json": "06e2dff918ae6d31afb7df71bf857bbf50df3212b8240558530b5d3ba83cbeae"
+  },
+  "tables_sha256": {
+    "baseline_coverage.json": "02be75f7621ab7605e399caf5559a23da7e3ba4cc0cd77e7ae80e6d73c1009db",
+    "baseline_seed_metrics.csv": "fdbbf6388a0006d27a68b5f409a1003c8e2656efa96c251caeccab17eb8b87b3",
+    "baseline_summaries.csv": "38018a38d52f8a4a0f012806eb7699190bf36c0f161e668dab3a86c2b180bc5b",
+    "baseline_diagnostics.json": "a73e250ed6abd389f794c8a4f491faa83dce094bdd4a7a77429a57832e4fb890",
+    "findings.json": "5040c26d92abaa4f623471ae1e66569ea7fe622ee96537c349b9448d30c8bc80",
+    "transportation/protected_cases.json": "0069f9899718a7af85235f066915ddd59f990671935c5393d168fdaeb2586951",
+    "transportation/topic_cases_five_seeds.json": "79ec43ce2f5001acda5db84cda17e1aa088560d99a94804e66dab8cca9996d53",
+    "transportation/topic_word_recurrence.csv": "d37de487fd82fb17a650e58f47612549b01ddc3c234f4c68561a3835f1773225"
+  }
+}

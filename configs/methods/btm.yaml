@@ -1,0 +1,11 @@
+# Execution Foundation: validated configuration; future stages are gated.
+method:
+  name: btm
+  borrowing:
+    enabled: false
+  selection:
+    strategy: none
+    downside:
+      enabled: false
+  transfer:
+    budget_mode: none

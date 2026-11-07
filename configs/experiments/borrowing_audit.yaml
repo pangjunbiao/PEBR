@@ -1,0 +1,7 @@
+# Execution Foundation: validated configuration; future stages are gated.
+experiment:
+  name: borrowing_audit
+  stage: borrowing_audit
+  mode: run
+borrowing_run:
+  banks: [outer_audit]

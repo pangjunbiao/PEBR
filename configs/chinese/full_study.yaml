@@ -1,0 +1,55 @@
+schema_version: 1
+kind: chinese_full_topic_study
+raw_directory: data/raw/chinese_transport
+files:
+- beijing.csv
+- shanghai.csv
+- xiamen.csv
+text_column: 正文
+collections:
+- pooled
+model_seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+topic_counts:
+- 8
+- 12
+- 16
+main_topic_count: 12
+methods:
+- nmf_original
+- nmf_similarity
+- btm
+- knntm
+- glocom
+- proposed
+controls:
+  similarity_matched: true
+  full_pool_loo: true
+  no_downside: true
+min_document_frequency: 2
+family_threshold: 0.9
+stopwords: assets/chinese_study/chinese_stopwords.txt
+stopwords_sha256: ea00e03f336743f6736d3e27f46a2e2c50089029229da85ec3c0192156187232
+protocol: configs/chinese/frozen_protocol.yaml
+encoder:
+  name: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+  manifest: assets/chinese_study/encoder_files.json
+  directory: assets/pretrained/chinese_encoder
+  base_url: https://huggingface.co
+  max_sequence_length: 128
+runtime:
+  device: auto
+  gpu_index: 0
+  cpu_threads: 4
+  embedding_batch_size: 32
+  gpu_memory_mb: 3072
+download_missing_assets: true
+word_vectors: frozen_multilingual_pca
+coherence_reference: original_pooled_posts
+evaluation_top_words: 10
+outputs: outputs/chinese_topics
+inspection_max_bytes_per_file: 6000000

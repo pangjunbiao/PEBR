@@ -1,0 +1,13 @@
+# Primary fixed-catalogue application; completed fitting outputs are reused.
+experiment:
+  name: transportation_retrieval
+  stage: transportation_retrieval
+  mode: run
+integration:
+  scope: full
+  collections: primary
+studies:
+  sensitivity:
+    enabled: false
+  corpus_size:
+    enabled: false

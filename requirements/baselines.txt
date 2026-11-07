@@ -1,0 +1,2 @@
+# Populate during Topic Models and Baseline Integration after release/dependency audit.
+# Do not install guessed neural-baseline versions over an existing CUDA environment.

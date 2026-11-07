@@ -1,0 +1,5 @@
+# main.py installs only missing compatible packages, preserving existing Torch/CUDA.
+# Both versions publish Windows CPython 3.10 x64 wheels.
+bitermplus==1.0.0
+POT==0.9.6.post1
+# PyTorch from the previously verified interpreter is reused, never replaced here.

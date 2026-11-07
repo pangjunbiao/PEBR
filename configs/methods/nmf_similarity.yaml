@@ -1,0 +1,9 @@
+# Execution Foundation: validated configuration; future stages are gated.
+method:
+  name: nmf_similarity
+  selection:
+    strategy: similarity
+    downside:
+      enabled: false
+  transfer:
+    budget_mode: maximum

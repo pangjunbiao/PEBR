@@ -1,0 +1,6 @@
+experiment:
+  name: corpus_smoke
+  stage: corpus_preparation
+  mode: run
+preparation:
+  scope: smoke

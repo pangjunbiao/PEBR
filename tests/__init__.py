@@ -1,0 +1,1 @@
+"""Project-local automated checks."""

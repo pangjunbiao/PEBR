@@ -1,0 +1,18 @@
+{
+  "README_STEP8.md": "80a2869902212362f9d14b14b5091b842ed21142f96272db7331efb9394d8d44",
+  "STEP7_INDEPENDENT_CHECKS.json": "5eafcb0f069fcfd9f019abd2d92b893f9792c2e12574c52fc0640cd0dc137322",
+  "STEP7_REVIEW.md": "bb78ec646f21496d7f596a6c959ede1b5ed9723ea299d2a7b2bb938a0637193a",
+  "VALIDATION_STEP8.md": "db7967b632a0e444be16c991eccda6bf1404739b998be02c5f87f200385fe8f4",
+  "pebr_robust8/__init__.py": "49dc6fd020a89e240a2929b9b1f102a05bb14cd018d6d32177cd6ddd8f7e6a98",
+  "pebr_robust8/banks.py": "3eb8b9c982b75d024d8d0d7c17f8dd401c3da1e341c735f341d9c1610d59af7d",
+  "pebr_robust8/common.py": "8d43ee240b6b247ec593ae40f80a6257725904144fca45979207809b431e8831",
+  "pebr_robust8/design.py": "66c895b9ac24acf1c42476578d48c359640339b1f69887316fb47019da98e7f5",
+  "pebr_robust8/engine.py": "44ce2f6a5256cc1ebab99f6ae2434bc39a03ee76839d3aa48ca4c0e3d5a83d46",
+  "pebr_robust8/gate.py": "c60e282574deaa948b85da98877fb288a640a4d7f00b0750ec4e52dca962e36b",
+  "pebr_robust8/results.py": "e2da89976fb04e5d7619afe72b9114a417a3845feed0ba2b97cfcfefb1e8d48a",
+  "pebr_robust8/selection.py": "36c0cf41daa4a30c9b8b0a4c7f6580ab0a8f8a6e6d50750fdd050f44bf940d63",
+  "pebr_robust8/study.py": "924e626a7a22f8fe84c0fed52a935826a92ab6afb4047e64a9d92e843222f22b",
+  "pebr_robust8/transport_notes.py": "17ba91f875d2d02341f9e894c7bfcb1dfac0c4da73d4559ed888d3f3c87842ef",
+  "pebr_step8_robustness.py": "5de3f190e803b56467e156918016f0d2b30a980b8430509ea5e2020381464fc6",
+  "s8_accepted_step7.json": "c2207bf70078f396b4d55c359584128a0696a2b8f5101a6745b694498ca1f35a"
+}

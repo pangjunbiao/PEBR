@@ -1,0 +1,68 @@
+{
+  "original": {
+    "counts": "44bad14b3c55b48d9752466b3e75da47192b9a4c49a5b43e29bdff98e75c730d",
+    "source": "9368e782efe0a0b54a30ccf014fa5d98c56f851a59be691e4b946924649563bb",
+    "folds": "3f46d552c500c71d82ce3a55ee639b824d432c2395c84714eaaf6d8ed29df331",
+    "families": "16d340be818440d289506a72b5759a2e3ff05e2c134f1d51e11d1a7d51954a02",
+    "words": "0769a3e2fe812df75dbe599f9af7bd4fb4c0562c9dbcb9c319dbce875e7af1cf",
+    "tokens": "f44f80ac29b0bb535a13600913fa0d4ba84b34e7b1de3e180862e23d53c9d17b"
+  },
+  "actions": {
+    "matched_sharing": "7821af1201654c3fe79aff5014b67bee4eae4b22cfc2f6f51da3ec8e8f1b780b",
+    "pebr": "e69248052acd4912a73f49b5df97579fcc2f18d5f28ee9a460f319076e8d1ec9"
+  },
+  "prepared_subdirectory": "indian_transport/primary_full_2ae4a61d27adecfc",
+  "embeddings": "1e7cb97d2e3d4a5cadcc419a0e7cfa2630aa6d364c0de5c1754a2105b99efa44",
+  "references": {
+    "0": {
+      "dictionary": "0100531c2676bd9acf28bfc753fd54d0ec6238dd5af8c3b2046f6534c3d42333",
+      "idf": "da7159e7dcf79c940291ee0262b4900d6f3f038d4f6c0eebf095390bf2e21817",
+      "prior": "e3b5ef2d2012933280633f32b54a64fc7ac5d48e7c89602b96ba72fa380d5e67",
+      "training_indices": "c0f651572dc283abe305aea916a5bf68cdd008ce8ba1a286683eaab57963e6bd"
+    },
+    "1": {
+      "dictionary": "a6cdd68a3045e813b1d04671837cd6b46a6a1e6cd4f088dbc5e95a7fe5995aba",
+      "idf": "2c5cc8406b26554ecea0efbbcff588e43e6e7d26fbf8c67256f9f62f34ad914d",
+      "prior": "a9cb9281bcfbc1a3a6442f380fd373e48276d214317106619d24fd2907bf6b92",
+      "training_indices": "9d78c2d1e004a50fc6b58be2cce66b33ea4a5792050ddb3640c32365fbf3e256"
+    },
+    "2": {
+      "dictionary": "eec6b6ae9d759bfe03e047326aa255c602cf7ffa49db0815a7c7231a64fbb446",
+      "idf": "360e0ccca006209d7cd9d90fc0bc272f34429f8f7d86fdb0ef195478d8af8e58",
+      "prior": "7b43ceb0e52805203d3d2ca2eb00b545844e911716481d87267e633b3e5b3811",
+      "training_indices": "23dee52d2b03cdc3776f0c6f633ccf0093c5f66ea090bc06ff99be7da03c2576"
+    },
+    "3": {
+      "dictionary": "f2f2d9ce3de375d1b9c5a1510e7bd5369321dff83ccc680c80d250f697a041fb",
+      "idf": "8ac4c2d8afe8f4882312f75ff23a3aa7bfedb412da5f974e7a22f9823bb1b1e4",
+      "prior": "e3006de584f9a19cd46ea2e5a1b81cd702eca1a886a16ddacfe6f6f3ab2caeb1",
+      "training_indices": "8c90fa269ff82d43ffd5d7a0430bd38be51fbd27c922e2acb5336ef596b8f1c9"
+    },
+    "4": {
+      "dictionary": "6e699e310fa0fec7dc61fb023c74cecfa2481e994fe9eb0be1a0e322112cd0ac",
+      "idf": "05fb87c141eb487ffe764eb8e221ee830df0a13d5f33de9920da574989087f81",
+      "prior": "23cafc491320d8d55347f81b06e3f57e57aaf120cbf85b2d94ce67c9dc04e7ea",
+      "training_indices": "62b87f7d71e0ef548c96b38e97f3b60d4baafc3f2213b59e5da96807008f53a2"
+    }
+  },
+  "condition": "2ae4a61d27adecfc2ead3a02a55c6d16a9a0b156a47808776d05c924344a7e14",
+  "encoder_identity": {
+    "backend": "onnx",
+    "batch_size": 32,
+    "implementation_sha256": "826aafe306e3ee0cfeb7d594006e2ce105d4e2fe93f49dfcbce5d060c4468cf8",
+    "max_sequence_length": 256,
+    "model_sha256": "6fd5d72fe4589f189f8ebc006442dbb529bb7ce38f8082112682524616046452",
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "normalize": true,
+    "precision": "float32",
+    "provider": "CUDAExecutionProvider",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "runtime_version": "1.22.0",
+    "tf32": false,
+    "tokenizers_version": "0.19.1"
+  },
+  "masked_query_cache": {
+    "identity": "5c538430992b8a3b1ff3b31f72665682d85cfca14b13c4e553af3aaac781bee7",
+    "sha256": "683cb04b1976d36a7536b4e9eb88ac922f023c29c5211c02923459beaccbd820"
+  }
+}

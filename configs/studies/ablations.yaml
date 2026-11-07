@@ -1,0 +1,11 @@
+# Execution Foundation: validated configuration; future stages are gated.
+studies:
+  ablations:
+    enabled: true
+    variants:
+      no_borrowing: true
+      similarity_maximum: true
+      similarity_matched: true
+      full_pool_loo: true
+      no_downside: true
+      proposed: true

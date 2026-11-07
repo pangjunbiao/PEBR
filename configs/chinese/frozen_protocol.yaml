@@ -1,0 +1,195 @@
+runtime:
+  device: auto
+  gpu_index: 0
+  cpu_threads: 4
+  probe_timeout_seconds: 90
+  deterministic: true
+  precision: float32
+  allow_tf32: false
+  concurrent_gpu_jobs: 1
+method:
+  name: proposed
+  borrowing:
+    enabled: true
+  selection:
+    strategy: predictive
+    max_donors: 3
+    margin: 1.0e-08
+    downside:
+      enabled: true
+      weight: 1
+  transfer:
+    budget_mode: grid
+    max_weight: 1/3
+    grid_fractions:
+    - 1/4
+    - 1/2
+    - 3/4
+    - '1'
+  views:
+    count: 20
+    min_word_types: 4
+    hide_fraction: 0.5
+  candidates:
+    per_view: 20
+  predictor:
+    folds: 5
+    seed: 0
+    fold_seed: 2710
+    mask_seed: 2711
+    outer_seed: 2712
+    smoothing: 0.1
+    unigram_smoothing: 0.1
+    tolerance: 0.0001
+    max_iterations: 2000
+  encoder:
+    name: sentence-transformers/all-MiniLM-L6-v2
+    revision: 1110a243fdf4706b3f48f1d95db1a4f5529b4d41
+    backend: onnx
+    max_sequence_length: 256
+    precision: float32
+    normalize: true
+evaluation:
+  topic:
+    primary: npmi
+    diversity: true
+    supplementary_cv: true
+    original_text_reference: true
+  retrieval:
+    primary: macro_ndcg
+    recall: true
+    bootstrap_resamples: 2000
+    bootstrap_seed: 0
+  prediction:
+    enabled: true
+    outer_fraction: 0.2
+studies:
+  ablations:
+    enabled: true
+    variants:
+      no_borrowing: true
+      similarity_maximum: true
+      similarity_matched: true
+      full_pool_loo: true
+      no_downside: true
+      proposed: true
+  sensitivity:
+    enabled: true
+    downside_weights:
+    - 0
+    - 0.5
+    - 1
+    - 2
+    borrowing_caps:
+    - 1/6
+    - 1/3
+    - 1/2
+  corpus_size:
+    enabled: true
+    sizes:
+    - 100
+    - 200
+    - 400
+    - 600
+    sample_indices:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+output:
+  resume: true
+  inspection_zip: true
+model_settings:
+  btm:
+    iterations: 1000
+    alpha_mass: 50.0
+    beta: 0.01
+    window: 15
+  glocom:
+    epochs: 200
+    batch_size: 200
+    learning_rate: 0.002
+    hidden_units: 200
+    clusters: 40
+    cluster_seed: 0
+    augmentation: 0.5
+    prior_variance: 0.1
+    ecr_weight: 60.0
+    dropout: 0.0
+    beta_temperature: 0.2
+    sinkhorn_alpha: 20.0
+    sinkhorn_max_iterations: 100
+  knntm:
+    epochs: 200
+    batch_size: 200
+    learning_rate: 0.002
+    hidden_units: 200
+    warmup_epochs: 20
+    neighbors: 30
+    alpha: 1.0
+    eta: 0.2
+    rho: 0.6
+schema_version: 1
+project:
+  name: proposed_transport_topics
+  method_label: proposed
+  protocol_id: transport_proposed_2026_10
+experiment:
+  name: full_study
+  stage: full_study
+  mode: run
+seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+datasets:
+  primary: indian_transport
+  external: dabiri_traffic
+baselines:
+  nmf_original: true
+  nmf_similarity: true
+  btm: true
+  knntm: true
+  glocom: true
+  minilm_retrieval: true
+topics:
+  counts:
+  - 8
+  - 12
+  - 16
+  main_count: 12
+  top_words: 10
+retrieval:
+  budgets:
+  - 5
+  - 10
+  - 20
+  main_budget: 10
+preparation:
+  scope: full
+  download: true
+  embedding_batch_size: 32
+  gpu_memory_mb: 3072
+  min_document_frequency: 2
+  family_threshold: 0.9
+  family_block_size: 128
+  external_target_posts: 600
+  smoke_posts: 32
+borrowing_run:
+  collections: all
+  banks:
+  - topic_learning
+  - outer_audit
+  receiver_limit: 0
+  proposal_batch_size: 128
+  progress_seconds: 10
+integration:
+  scope: full
+  collections: all
+  smoke_epochs: 25
+  smoke_btm_iterations: 50
+  checkpoint_epochs: 10
+  download_sources: true

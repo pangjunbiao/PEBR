@@ -1,0 +1,246 @@
+{
+  "source_manifest": {
+    "README_STEP8.md": "80a2869902212362f9d14b14b5091b842ed21142f96272db7331efb9394d8d44",
+    "STEP7_INDEPENDENT_CHECKS.json": "5eafcb0f069fcfd9f019abd2d92b893f9792c2e12574c52fc0640cd0dc137322",
+    "STEP7_REVIEW.md": "bb78ec646f21496d7f596a6c959ede1b5ed9723ea299d2a7b2bb938a0637193a",
+    "VALIDATION_STEP8.md": "db7967b632a0e444be16c991eccda6bf1404739b998be02c5f87f200385fe8f4",
+    "pebr_robust8/__init__.py": "49dc6fd020a89e240a2929b9b1f102a05bb14cd018d6d32177cd6ddd8f7e6a98",
+    "pebr_robust8/banks.py": "3eb8b9c982b75d024d8d0d7c17f8dd401c3da1e341c735f341d9c1610d59af7d",
+    "pebr_robust8/common.py": "8d43ee240b6b247ec593ae40f80a6257725904144fca45979207809b431e8831",
+    "pebr_robust8/design.py": "66c895b9ac24acf1c42476578d48c359640339b1f69887316fb47019da98e7f5",
+    "pebr_robust8/engine.py": "44ce2f6a5256cc1ebab99f6ae2434bc39a03ee76839d3aa48ca4c0e3d5a83d46",
+    "pebr_robust8/gate.py": "c60e282574deaa948b85da98877fb288a640a4d7f00b0750ec4e52dca962e36b",
+    "pebr_robust8/results.py": "e2da89976fb04e5d7619afe72b9114a417a3845feed0ba2b97cfcfefb1e8d48a",
+    "pebr_robust8/selection.py": "36c0cf41daa4a30c9b8b0a4c7f6580ab0a8f8a6e6d50750fdd050f44bf940d63",
+    "pebr_robust8/study.py": "924e626a7a22f8fe84c0fed52a935826a92ab6afb4047e64a9d92e843222f22b",
+    "pebr_robust8/transport_notes.py": "17ba91f875d2d02341f9e894c7bfcb1dfac0c4da73d4559ed888d3f3c87842ef",
+    "pebr_step8_robustness.py": "5de3f190e803b56467e156918016f0d2b30a980b8430509ea5e2020381464fc6",
+    "s8_accepted_step7.json": "c2207bf70078f396b4d55c359584128a0696a2b8f5101a6745b694498ca1f35a"
+  },
+  "protocol": {
+    "schema": "pebr_revision_core_v1",
+    "status": "prespecified_design_not_a_performance_result",
+    "purpose": "Estimate repeatable added value over simpler borrowing and justify retained decisions",
+    "corpora": [
+      "transport_grievance",
+      "chinese_pooled"
+    ],
+    "dataset_roles": "equal core evaluation scope; no primary corpus chosen from outcome rankings",
+    "topic_counts": [
+      8,
+      10,
+      12
+    ],
+    "main_topic_count": 12,
+    "final_model_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "default_fold_seed": 2710,
+    "default_reference_seed": 0,
+    "family_folds": 5,
+    "views": 20,
+    "candidates_per_view": 20,
+    "max_donors": 3,
+    "masking": {
+      "unit": "retained word type",
+      "hide_fraction": 0.5,
+      "minimum_types": 4,
+      "query_removal": "all occurrences of every hidden type"
+    },
+    "reference_predictor": {
+      "topics_equal_final_K": true,
+      "folds": 5,
+      "seed": 0,
+      "smoothing": 0.1,
+      "unigram_smoothing": 0.1,
+      "nmf_tolerance": 0.0001,
+      "nmf_max_iterations": 2000
+    },
+    "final_nmf": {
+      "tolerance": 0.0001,
+      "max_iterations": 2000,
+      "inference": "original posts with learned dictionary fixed"
+    },
+    "corpus_preparation": {
+      "minimum_document_frequency": 2,
+      "family_threshold": 0.9,
+      "vocabulary_and_stopwords": "audited language-specific preparation retained"
+    },
+    "cap": 0.3333333333333333,
+    "downside_weight": 1.0,
+    "admission_margin": 1e-08,
+    "positive_budget_cap_fractions": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "borrowed_evidence": "complete normalized donor word distributions; equal offered shares; unavailable shares return to receiver",
+    "scoring": "hidden-token-share times hidden gain minus visible-token-share times visible loss",
+    "preprocessing": "unchanged audited counts, vocabulary and original post records; language-specific tokenizers and frozen encoders retained",
+    "policies": [
+      "nmf_original",
+      "nmf_similarity",
+      "matched_preserve_fixed",
+      "preserve_fixed_prefix",
+      "preserve_forward_fixed_cap"
+    ],
+    "control_definitions": {
+      "nmf_original": "No borrowing; five final seeds per corpus/K reused, not refitted per mask.",
+      "nmf_similarity": "Original full-receiver cosine ranking of the masked-view candidate union; top three at cap without admission.",
+      "matched_preserve_fixed": "Similarity-ranked available donors match revised PEBR actual transfer mass and contributing donor count for EACH receiver.",
+      "preserve_fixed_prefix": "Same revised score, cap and no-borrowing option; score reciprocal-rank prefixes of lengths 1..3.",
+      "preserve_forward_fixed_cap": "REVISED PEBR: receiver-preserving score, downside penalty and complete-group forward search; only cap is a positive offer."
+    },
+    "metrics": {
+      "coherence": [
+        "npmi",
+        "cv"
+      ],
+      "complementary": [
+        "diversity",
+        "seed_pair_stability"
+      ],
+      "descriptor_words": 10,
+      "npmi_unit": "presence in original posts",
+      "cv_window": 110,
+      "reference": "same original unaugmented corpus within each language; borrowed counts excluded"
+    },
+    "aggregation": {
+      "fitting": "Within each corpus/K/case/policy, mean and sample SD across five final NMF seeds; ten-pair topic stability.",
+      "paired": "PEBR minus comparator for the same corpus/K/case/final seed.",
+      "sensitivity": "Default and two alternative levels displayed separately for each axis; no pooled twenty-five-seed SD.",
+      "reused_models": "No-borrowing fits are shared across all cases; ordinary-sharing fits are also shared across reference-seed cases.",
+      "not_claimed": "No independent-corpus uncertainty, significance or universal ranking guarantee."
+    },
+    "single_display_run": {
+      "selection_mask_base": 3711,
+      "final_model_seed": 0
+    },
+    "timing": "separate reference fitting, masked retrieval, selection, final fitting and reporting; include total cost",
+    "runtime": {
+      "download_or_install": false,
+      "missing_assets": "fail without modifying environment",
+      "cpu_threads": 4,
+      "gpu_index": 0,
+      "embedding_batch_size": 32,
+      "embedding_precision": "float32",
+      "tf32": false,
+      "run_corpora_sequentially": true,
+      "encoder_max_lengths": {
+        "transport_grievance": 256,
+        "chinese_pooled": 128
+      }
+    },
+    "baseline_configuration_review": "separate later-stage study; source preservation and finite training do not establish adequate tuning",
+    "annotations": "not used in borrowing or topic fitting; no synthetic Chinese service labels",
+    "historical_K16": "retained with original version; not relabelled and not part of the new core grid",
+    "disclosure": "Existing corpus outcomes at K=8/12 have been examined; this is a prespecified revision, not blind confirmation",
+    "outcome_policy": "retain every declared condition; no score-based seed/corpus deletion; simplify or narrow claims when warranted",
+    "runner_implementation_pending": false,
+    "guaranteed_performance_or_journal_rating": false,
+    "anchor_policy": "preserve_forward_fixed_cap",
+    "development_mask_base": 2711,
+    "stage": "reference_and_family_fold_sensitivity",
+    "inferential_scope": "Same two collections and fixed mask 3711; reference initialization and family-fold protocol perturbations are studied separately.",
+    "selection_score": "hidden-token-share times hidden gain minus visible-token-share times visible loss",
+    "positive_offered_weights": [
+      0.3333333333333333
+    ],
+    "development_bank_in_validation_summary": false,
+    "changes_allowed_during_run": false,
+    "later_validation_pending": [
+      "genuine K10 BTM/neural benchmarks",
+      "baseline budget review",
+      "updated corpus-size/parameter/runtime assets",
+      "final table/figure/claim ledger"
+    ],
+    "cases": [
+      {
+        "case": "default",
+        "axis": "default",
+        "reference_seed": 0,
+        "fold_seed": 2710
+      },
+      {
+        "case": "r1",
+        "axis": "reference_initialization",
+        "reference_seed": 1,
+        "fold_seed": 2710
+      },
+      {
+        "case": "r2",
+        "axis": "reference_initialization",
+        "reference_seed": 2,
+        "fold_seed": 2710
+      },
+      {
+        "case": "f3710",
+        "axis": "family_folds",
+        "reference_seed": 0,
+        "fold_seed": 3710
+      },
+      {
+        "case": "f4710",
+        "axis": "family_folds",
+        "reference_seed": 0,
+        "fold_seed": 4710
+      }
+    ],
+    "selection_mask_base": 3711,
+    "selection_mask_bases": [
+      3711
+    ],
+    "reference_initialization_seeds": [
+      1,
+      2
+    ],
+    "alternate_fold_seeds": [
+      3710,
+      4710
+    ],
+    "selection_mask_changes": false,
+    "encoder_calls": 0,
+    "new_reference_fits": 120,
+    "new_final_topic_fits": 420,
+    "reused_unique_final_fits": 150,
+    "reused_case_fit_records": 330,
+    "expected_case_fit_records": 750,
+    "expected_case_policy_summaries": 150,
+    "new_nondefault_corpus_K_cases": 24,
+    "rule_and_defaults_unchanged": true,
+    "outcomes_used_for_tuning": false,
+    "known_mask_bank": true,
+    "fold_axis_scope": "New fold-excluded predictive references AND newly eligible masked/full donor lists; not an isolated predictor-seed perturbation."
+  },
+  "tables_sha256": {
+    "results/coverage.json": "ed58ad24e675a9c6041fd9e0fadf72f945edf6815ba81d2d94c8123e7b010a7a",
+    "model_fit_accounting.json": "bc8d2d843b972fca1134cfc55e2ed807eae9603c80d8d7e40847f16e4ab5d044",
+    "results/topic_words.json": "d92834d602a8b779958f53076108831d733b7350549b904f56ff99ca33031e5b",
+    "results/case_summaries.csv": "35cb7fe2bda2f61e723f29411ef450b3e16a733f15707bb71321d6961915ff76",
+    "results/paired_effects.csv": "200d3550cf9ca1e28488ef65b29dcc6201fdd6bc394295eba3e4625f83ebd1b4",
+    "reference_fit_audits.csv": "d269ddbddbf69cf03c1f3439544c70823a566012033e43c89930e3f0b71bef69",
+    "default_selector_reproduction.json": "bbc83efc412e357ce965d4b291b1bf13b35cac34a5fff35d5c7c3e0e7cfea460",
+    "transportation_clarification/decision_types.csv": "c9e47c63046b8b111dba1ee4be73bfef34c28ba1a2d3380843a29a2e38107e8a",
+    "transportation_clarification/case_policy_gains.csv": "7f41d4fec7885295362964327400e48578f018bf0528d7721431327d9720eec7"
+  },
+  "step7_inputs_sha256": {
+    "baseline_metadata.json": "57bf424c56a696da2b640ccdf94ed69b5f6a68943f6696590539a429b779546e",
+    "baseline_run_ledger.csv": "5ff6e247e44ce6cc11431ffe85a92baf2ec18b7b24afba3c62a59d88c67646a0",
+    "transportation/topic_cases_five_seeds.json": "79ec43ce2f5001acda5db84cda17e1aa088560d99a94804e66dab8cca9996d53",
+    "transportation/topic_word_recurrence.csv": "d37de487fd82fb17a650e58f47612549b01ddc3c234f4c68561a3835f1773225",
+    "transportation/protected_case_word_probabilities.csv": "7e4fdf8743729cb7064a4d2258becb89b07f6d60f791066a97170d166199bcbe",
+    "transportation/protected_case_policy_gains.csv": "1a71f412d901ac92215e7e424d6d4c9edb826cc25e6342f78ad7f1f275235d54",
+    "transportation/fixed_anchor_protected_repeats.csv": "33205171943a7b6b53391c4af19211c6d3a13080877edf285e98818578703e04",
+    "transportation/protected_case_donors.csv": "b1d16f71cc6a6c0ab8020bd94a2b9bd8130e698d41300bbddf2ee1c82215aec1",
+    "transportation/transport_cases_revised.tex": "d60b0814960086da46916d018ff9259af2aaae93d1de08912ca102132b977660",
+    "transportation/service_word_recurrence_revised_1.pdf": "ab411d90b9521aad529735baaabfa5025c6acc983746f885b692f920d8278396",
+    "transportation/service_word_recurrence_revised_2.pdf": "8be06352e56cb102d5241d50058ed446898ec20f126aa6cfff0fc64e8f460ec9",
+    "transportation/service_word_recurrence_revised_1.png": "564c3de10a9df745394433909abb29ff51767ac87e06b406c0ebaa0aff53b697",
+    "transportation/service_word_recurrence_revised_2.png": "7ef4a662ac40178514fc5456c62d19cb78d8c1e3f79e18bb98c42a1a6161fa24"
+  }
+}

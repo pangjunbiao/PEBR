@@ -1,0 +1,10 @@
+{
+  "baseline_models_independently_recomputed": 60,
+  "baseline_aggregate_groups_recomputed": 12,
+  "all_80_case_records_and_recurrence_counts_checked": true,
+  "protected_case_policy_gains_decomposed": 42,
+  "maximum_metric_aggregate_case_error": 1.474514954580286e-15,
+  "maximum_saved_decoder_sample_error": 2.682209014892578e-07,
+  "pass": true,
+  "new_training_performed": false
+}

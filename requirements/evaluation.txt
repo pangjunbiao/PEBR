@@ -1,0 +1,2 @@
+# Existing compatible installations are preserved by main.py.
+gensim==4.4.0

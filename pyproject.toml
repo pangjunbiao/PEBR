@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proposed-transport-topics"
+version = "0.5.0"
+description = "Controlled evidence sharing for short transport posts"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6,<7", "packaging>=23,<27"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]

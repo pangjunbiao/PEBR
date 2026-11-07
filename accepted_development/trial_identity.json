@@ -1,0 +1,41 @@
+{
+  "inputs_sha256": "e23487512a4fc6d8035c5284f04656b48d4942a5b55af37bd7106144854d8599",
+  "runner_sha256": "b32d672701b32bb864163059ebf114f4d0c74a9bd455611d171ab978fd25cb6d",
+  "candidate_sha256": {
+    "anchored_scoring.py": "14395fe60953c331b14e9ed1ef3a464bae0e3e0ff154cbc1e5b8ea7d5fa8f17d",
+    "refined_search.py": "8ee526dc19d3341e1689336ee289c86f89aa8ac7f65398bd541db7ec2fb99338"
+  },
+  "environment": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "gensim": "4.4.0"
+  },
+  "corpora": [
+    "transport_grievance",
+    "chinese_pooled"
+  ],
+  "topics": [
+    8,
+    10,
+    12
+  ],
+  "variants": [
+    "preserve_forward",
+    "hidden_refined",
+    "preserve_refined",
+    "preserve_refined_fixed_cap",
+    "matched_preserve_refined"
+  ],
+  "final_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "selection_mask_base": 2711,
+  "selection_repeats": 1,
+  "scope": "focused exploratory rule development on known corpora; no new confirmation",
+  "identity": "22b7dda4f237d636b0058afe1adffc99ed1fa986646c27990e6ac13417698493"
+}

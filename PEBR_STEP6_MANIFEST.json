@@ -1,0 +1,17 @@
+{
+  "accepted_step5_protocol.json": "36a5063754ff7bb9530fffc521db3672f92c4cab0625f70d9b2619df0b41ece3",
+  "accepted_step5_source_manifest.json": "a3d53a114858a1e3acf41f5eb34280c6214ee7ff4dccb307635ca66cec1084aa",
+  "accepted_step5_tables_sha256.json": "cdc242400accd6d5bb1ae3a8b99c5f89bf437fe5b5f31aaa43e095b10b1be191",
+  "pebr_protected_words/__init__.py": "f42f14fe4317d31f7cc370945b51b6be6d76a5806c13e4c4ef6a578a16d662a5",
+  "pebr_protected_words/aggregate.py": "07ef1de10d720beffcf63b2094a09f423c678b93e3181b21294c7fb7345b4850",
+  "pebr_protected_words/banks.py": "6e5eb402dc16173700f4ef0ab35c93271108c52451c754216b72e3165fc0e737",
+  "pebr_protected_words/engine.py": "34d15eb2b43cb1c20038b1383b086229e13019fbc52c6a807ee502a193659b2d",
+  "pebr_protected_words/gate.py": "a1a438773faaabd43ddb60a60abe1604c2679e0ee78adc803e81d895d36e10bb",
+  "pebr_protected_words/helpers.py": "88cdf02ecb00d090b42f71c279e665b443fa3d4d0d473fc44c753fecc4973f43",
+  "pebr_protected_words/outcomes.py": "71bde183296fa746ec064c5426ef2378a7d12ed3b7e600f3d7167473aba98a31",
+  "pebr_protected_words/selection.py": "9fac2ffb5b36a14a0afac97382b34e50484222d1d217762946019c4f56e6de3f",
+  "pebr_protected_words/storage.py": "684b2159b8c4bb71dad6dec5cdba524e83774be09d2fedcb05ef94c95fb0a917",
+  "pebr_step6_protected_words.py": "0c215a97557511060b2894592ca1b3a00024fa7ae58a8925e7b45fd552a6b949",
+  "pebr_step6_tests/test_protected_words.py": "b8607869e67f279730c0260fc8fc8904c3297a418a842113f3942d45f80db9fd",
+  "pebr_step6_tests/test_windows_paths.py": "f41637b8d3151466e2367ed15879f5dbe915e34376c4206b511a4cb9a69d27d8"
+}

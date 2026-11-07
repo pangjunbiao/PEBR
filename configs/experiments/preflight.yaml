@@ -1,0 +1,5 @@
+# Execution Foundation: validated configuration; future stages are gated.
+experiment:
+  name: preflight
+  stage: execution_foundation
+  mode: check

@@ -1,0 +1,7 @@
+experiment:
+  name: model_integration
+  stage: model_smoke
+  mode: run
+integration:
+  scope: smoke
+  collections: primary

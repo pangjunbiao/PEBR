@@ -1,0 +1,1 @@
+# Foundation checks use Python's standard-library unittest; no test dependency needed.

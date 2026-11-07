@@ -1,0 +1,10 @@
+# Execution Foundation: validated configuration; future stages are gated.
+runtime:
+  device: auto
+  gpu_index: 0
+  cpu_threads: 4
+  probe_timeout_seconds: 90
+  deterministic: true
+  precision: float32
+  allow_tf32: false
+  concurrent_gpu_jobs: 1

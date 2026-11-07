@@ -1,0 +1,7 @@
+# Execution Foundation: validated configuration; future stages are gated.
+dataset_id: indian_transport
+role: primary
+source_url: https://github.com/sohampoddar26/indian-transport-snam
+raw_file: data/raw/indian_transport/grievance.csv
+annotation_use: evaluation_only
+download_stage: corpus_preparation

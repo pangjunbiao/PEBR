@@ -1,0 +1,7 @@
+# Execution Foundation: validated configuration; future stages are gated.
+evaluation:
+  retrieval:
+    primary: macro_ndcg
+    recall: true
+    bootstrap_resamples: 2000
+    bootstrap_seed: 0

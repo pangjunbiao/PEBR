@@ -1,0 +1,11 @@
+# Development-only action subset; reuses the full prepared primary collection.
+experiment:
+  name: borrowing_smoke
+  stage: borrowing_rule
+  mode: run
+topics:
+  counts: [12]
+  main_count: 12
+borrowing_run:
+  collections: primary
+  receiver_limit: 8

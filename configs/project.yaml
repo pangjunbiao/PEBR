@@ -1,0 +1,76 @@
+extends:
+- configs/runtime/gpu.yaml
+- configs/methods/proposed.yaml
+- configs/evaluation/topic_quality.yaml
+- configs/evaluation/complaint_retrieval.yaml
+- configs/evaluation/predictive_audit.yaml
+- configs/studies/ablations.yaml
+- configs/studies/sensitivity.yaml
+- configs/studies/corpus_size.yaml
+- configs/outputs/layout.yaml
+- configs/models/btm.yaml
+- configs/models/glocom.yaml
+- configs/models/knntm.yaml
+schema_version: 1
+project:
+  name: proposed_transport_topics
+  method_label: proposed
+  protocol_id: transport_proposed_2026_10
+experiment:
+  name: full_study
+  stage: full_study
+  mode: run
+seeds:
+- 0
+- 1
+- 2
+- 3
+- 4
+datasets:
+  primary: indian_transport
+  external: dabiri_traffic
+baselines:
+  nmf_original: true
+  nmf_similarity: true
+  btm: true
+  knntm: true
+  glocom: true
+  minilm_retrieval: true
+topics:
+  counts:
+  - 8
+  - 12
+  - 16
+  main_count: 12
+  top_words: 10
+retrieval:
+  budgets:
+  - 5
+  - 10
+  - 20
+  main_budget: 10
+preparation:
+  scope: full
+  download: true
+  embedding_batch_size: 32
+  gpu_memory_mb: 3072
+  min_document_frequency: 2
+  family_threshold: 0.9
+  family_block_size: 128
+  external_target_posts: 600
+  smoke_posts: 32
+borrowing_run:
+  collections: all
+  banks:
+  - topic_learning
+  - outer_audit
+  receiver_limit: 0
+  proposal_batch_size: 128
+  progress_seconds: 10
+integration:
+  scope: full
+  collections: all
+  smoke_epochs: 25
+  smoke_btm_iterations: 50
+  checkpoint_epochs: 10
+  download_sources: true

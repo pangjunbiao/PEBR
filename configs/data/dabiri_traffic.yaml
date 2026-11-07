@@ -1,0 +1,7 @@
+# Execution Foundation: validated configuration; future stages are gated.
+dataset_id: dabiri_traffic
+role: external
+source_url: https://data.mendeley.com/datasets/c3xvj5snvv/1
+raw_file: data/raw/dabiri_traffic/1_TrainingSet_3Class.csv
+annotation_use: population_filter_then_evaluation_only
+download_stage: corpus_preparation

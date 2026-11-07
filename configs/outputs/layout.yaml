@@ -1,0 +1,4 @@
+# Execution Foundation: validated configuration; future stages are gated.
+output:
+  resume: true
+  inspection_zip: true

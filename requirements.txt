@@ -1,0 +1,2 @@
+# Execution Foundation only. Existing compatible packages are preserved.
+-r requirements/core.txt

@@ -1,0 +1,11 @@
+{
+  "case_seed_records_checked": 750,
+  "case_policy_summaries_checked": 150,
+  "paired_effects_checked": 360,
+  "reference_exclusions_idf_priors_checked": 120,
+  "K12_PEBR_models_independently_recomputed": 40,
+  "selected_action_records_checked": 128256,
+  "maximum_numerical_error": 8.881784197001252e-16,
+  "all_passed": true,
+  "new_fitting_performed": false
+}

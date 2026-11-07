@@ -1,0 +1,20 @@
+{
+  "MANUSCRIPT_HANDOFF.md": "90ff54ec3a4e91a34ecb2accf1f741b5508d27952236e71da0edec8d884f0e8a",
+  "README_STEP9.md": "0d2067df241d31a180218237a2131465a0deaab7e9a817dbc463873048dab874",
+  "STEP8_INDEPENDENT_CHECKS.json": "5ae462906eb7fab3732f2225bec24135c58f4febac013303e90204b91fce8ead",
+  "STEP8_REVIEW.md": "053686d2f64fe4cb3be55b190a9ae8ac1d08d1782747be914c7f5a0cdde2a615",
+  "VALIDATION_STEP9.md": "fb96c987c83e70feb0cb195b97976eda90a07f05a81155c48b2a2d14eb4daccb",
+  "pebr_complete9/__init__.py": "7fa45f48aeb5837e3ddb7002c0438e4798aa8ef3a49e11acd390a117522ea687",
+  "pebr_complete9/analyses.py": "95207f1119078b76cc475e40f1b13c9abd83edb51bff482ed35496e29d1839ba",
+  "pebr_complete9/assets.py": "7da85a05d713f6481df1a879ffc4562143a4151ff98c0eddbca60c72a5085106",
+  "pebr_complete9/benchmarks.py": "30216de1a0b9516ec8c779b5668a9873c677631cd161fee408f6d68fa5813866",
+  "pebr_complete9/common.py": "8d43ee240b6b247ec593ae40f80a6257725904144fca45979207809b431e8831",
+  "pebr_complete9/core.py": "ec49a3b6a759f5a8bcf7d2bd0dc74a74784664970309dd2ff45666d5f53b7257",
+  "pebr_complete9/design.py": "455c9b507ad3502960a59f90e5a1e66020d5dc3de77a00031c7830d05b8414a4",
+  "pebr_complete9/engine.py": "7bce3a1b5952b22cff68ed308a9b5933b194100ed1b45fed8b61a901bea9643e",
+  "pebr_complete9/gate.py": "3cead0b0d1a65a89a3c71ea3c63873776ee83d2bc77a5eaa9f957939d9f717a2",
+  "pebr_complete9/retrieval.py": "701a3ad68984e1977c321105a91fab37584fac130ac7691cc0c5752cca2f82f5",
+  "pebr_complete9/runtime.py": "0843f4df762e3a186518b99c2b7d80a9728cc740e11a28bbe7de06782281f110",
+  "pebr_step9_complete.py": "328f5c5bb16079f4f200eba1c9ffef4dd8a1fc85219799587ca83495250126eb",
+  "s9_accepted_step8.json": "118594ebcbe1f65a267699383b891ea7e496ee47e634f23485fe8df792d00a57"
+}

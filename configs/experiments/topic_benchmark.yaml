@@ -1,0 +1,8 @@
+# Full-budget model fitting. Comparative evaluation is connected next phase.
+experiment:
+  name: topic_benchmark
+  stage: topic_benchmark
+  mode: run
+integration:
+  scope: full
+  collections: all

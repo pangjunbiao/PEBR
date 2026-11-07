@@ -1,0 +1,14 @@
+# Quick end-to-end evaluation on the full prepared primary collection.
+# Reuses phase-four smoke models; never enters full-budget result aggregation.
+experiment:
+  name: evaluation_smoke
+  stage: full_study
+  mode: run
+integration:
+  scope: smoke
+  collections: primary
+studies:
+  sensitivity:
+    enabled: false
+  corpus_size:
+    enabled: false

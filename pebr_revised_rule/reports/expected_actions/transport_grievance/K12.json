@@ -1,0 +1,7165 @@
+[
+  {
+    "donors": [
+      92
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      92
+    ]
+  },
+  {
+    "donors": [
+      36,
+      427
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      36,
+      427
+    ]
+  },
+  {
+    "donors": [
+      76
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      76
+    ]
+  },
+  {
+    "donors": [
+      127
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      99,
+      118
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      99,
+      118
+    ]
+  },
+  {
+    "donors": [
+      271,
+      466,
+      607
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      271
+    ]
+  },
+  {
+    "donors": [
+      283
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      283
+    ]
+  },
+  {
+    "donors": [
+      98,
+      271
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      98,
+      271
+    ]
+  },
+  {
+    "donors": [
+      82
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      82
+    ]
+  },
+  {
+    "donors": [
+      178,
+      182
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      178
+    ]
+  },
+  {
+    "donors": [
+      111,
+      167,
+      337
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      111,
+      167,
+      337
+    ]
+  },
+  {
+    "donors": [
+      111,
+      435
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      111,
+      435
+    ]
+  },
+  {
+    "donors": [
+      9,
+      101
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      9,
+      101
+    ]
+  },
+  {
+    "donors": [
+      132,
+      271,
+      541
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      132,
+      271,
+      541
+    ]
+  },
+  {
+    "donors": [
+      10,
+      93
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      10
+    ]
+  },
+  {
+    "donors": [
+      34,
+      47
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      34,
+      47
+    ]
+  },
+  {
+    "donors": [
+      62
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      62
+    ]
+  },
+  {
+    "donors": [
+      58
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      58
+    ]
+  },
+  {
+    "donors": [
+      74
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      74
+    ]
+  },
+  {
+    "donors": [
+      98,
+      429,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      98,
+      608
+    ]
+  },
+  {
+    "donors": [
+      48,
+      525
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      48,
+      525
+    ]
+  },
+  {
+    "donors": [
+      26
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      26
+    ]
+  },
+  {
+    "donors": [
+      358
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      358
+    ]
+  },
+  {
+    "donors": [
+      9,
+      29,
+      122
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      9,
+      29,
+      122
+    ]
+  },
+  {
+    "donors": [
+      69
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      69
+    ]
+  },
+  {
+    "donors": [
+      23,
+      448
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      23,
+      448
+    ]
+  },
+  {
+    "donors": [
+      21
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      21
+    ]
+  },
+  {
+    "donors": [
+      26,
+      51,
+      122
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      26,
+      51,
+      122
+    ]
+  },
+  {
+    "donors": [
+      543,
+      618
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      543,
+      618
+    ]
+  },
+  {
+    "donors": [
+      23
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      23
+    ]
+  },
+  {
+    "donors": [
+      23,
+      176,
+      177
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      23
+    ]
+  },
+  {
+    "donors": [
+      40,
+      76
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      40,
+      76
+    ]
+  },
+  {
+    "donors": [
+      75,
+      331,
+      430
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      430
+    ]
+  },
+  {
+    "donors": [
+      228,
+      360,
+      544
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      14,
+      15
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      14,
+      15
+    ]
+  },
+  {
+    "donors": [
+      488
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      1,
+      405
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      1,
+      405
+    ]
+  },
+  {
+    "donors": [
+      173,
+      390
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      173,
+      390
+    ]
+  },
+  {
+    "donors": [
+      32,
+      121
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      32,
+      121
+    ]
+  },
+  {
+    "donors": [
+      65,
+      365
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      65,
+      365
+    ]
+  },
+  {
+    "donors": [
+      76,
+      87,
+      460
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      76,
+      87
+    ]
+  },
+  {
+    "donors": [
+      38,
+      116,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      38,
+      608
+    ]
+  },
+  {
+    "donors": [
+      534
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      534
+    ]
+  },
+  {
+    "donors": [
+      138,
+      462
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      138,
+      462
+    ]
+  },
+  {
+    "donors": [
+      26,
+      98,
+      186
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      26
+    ]
+  },
+  {
+    "donors": [
+      64
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      64
+    ]
+  },
+  {
+    "donors": [
+      47
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      47
+    ]
+  },
+  {
+    "donors": [
+      383
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      383
+    ]
+  },
+  {
+    "donors": [
+      497,
+      519,
+      528
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      519,
+      528
+    ]
+  },
+  {
+    "donors": [
+      84
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      84
+    ]
+  },
+  {
+    "donors": [
+      3,
+      95
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      95
+    ]
+  },
+  {
+    "donors": [
+      26,
+      125,
+      468
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      26,
+      125
+    ]
+  },
+  {
+    "donors": [
+      107
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      107
+    ]
+  },
+  {
+    "donors": [
+      52,
+      107,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      52,
+      107,
+      512
+    ]
+  },
+  {
+    "donors": [
+      52
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      52
+    ]
+  },
+  {
+    "donors": [
+      416
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      416
+    ]
+  },
+  {
+    "donors": [
+      365
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      365
+    ]
+  },
+  {
+    "donors": [
+      67,
+      519
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      67,
+      519
+    ]
+  },
+  {
+    "donors": [
+      62,
+      299,
+      336
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      62,
+      299,
+      336
+    ]
+  },
+  {
+    "donors": [
+      430
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      430
+    ]
+  },
+  {
+    "donors": [
+      90,
+      258,
+      329
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      90,
+      258,
+      329
+    ]
+  },
+  {
+    "donors": [
+      436,
+      535
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      436,
+      535
+    ]
+  },
+  {
+    "donors": [
+      35
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      35
+    ]
+  },
+  {
+    "donors": [
+      36,
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      320
+    ]
+  },
+  {
+    "donors": [
+      26
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      26
+    ]
+  },
+  {
+    "donors": [
+      21
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      21
+    ]
+  },
+  {
+    "donors": [
+      122
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      122
+    ]
+  },
+  {
+    "donors": [
+      52
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      52
+    ]
+  },
+  {
+    "donors": [
+      138
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      138
+    ]
+  },
+  {
+    "donors": [
+      106,
+      129
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      103,
+      122
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      103,
+      122
+    ]
+  },
+  {
+    "donors": [
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      127
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      127
+    ]
+  },
+  {
+    "donors": [
+      412,
+      553
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      412,
+      553
+    ]
+  },
+  {
+    "donors": [
+      8,
+      18,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      8,
+      18,
+      512
+    ]
+  },
+  {
+    "donors": [
+      577
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      577
+    ]
+  },
+  {
+    "donors": [
+      2,
+      31,
+      51
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      2,
+      31,
+      51
+    ]
+  },
+  {
+    "donors": [
+      76,
+      172,
+      401
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      76,
+      401
+    ]
+  },
+  {
+    "donors": [
+      92,
+      361
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      92
+    ]
+  },
+  {
+    "donors": [
+      69,
+      244,
+      435
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      69,
+      244,
+      435
+    ]
+  },
+  {
+    "donors": [
+      4,
+      112
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      4
+    ]
+  },
+  {
+    "donors": [
+      310,
+      590
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      590
+    ]
+  },
+  {
+    "donors": [
+      104,
+      177
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      104
+    ]
+  },
+  {
+    "donors": [
+      111,
+      615
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      111
+    ]
+  },
+  {
+    "donors": [
+      51,
+      92
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      51,
+      92
+    ]
+  },
+  {
+    "donors": [
+      480
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      480
+    ]
+  },
+  {
+    "donors": [
+      75,
+      134,
+      569
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      75,
+      134,
+      569
+    ]
+  },
+  {
+    "donors": [
+      2,
+      75,
+      172
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      2,
+      75,
+      172
+    ]
+  },
+  {
+    "donors": [
+      31,
+      76,
+      87
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      31,
+      76,
+      87
+    ]
+  },
+  {
+    "donors": [
+      36
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      36
+    ]
+  },
+  {
+    "donors": [
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      392,
+      400,
+      577
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      392
+    ]
+  },
+  {
+    "donors": [
+      51,
+      94
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      51,
+      94
+    ]
+  },
+  {
+    "donors": [
+      75,
+      99
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      75
+    ]
+  },
+  {
+    "donors": [
+      8,
+      84
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      8,
+      84
+    ]
+  },
+  {
+    "donors": [
+      92,
+      265
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      92,
+      265
+    ]
+  },
+  {
+    "donors": [
+      237,
+      258,
+      409
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      237,
+      258,
+      409
+    ]
+  },
+  {
+    "donors": [
+      37,
+      263
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      37,
+      263
+    ]
+  },
+  {
+    "donors": [
+      75,
+      111,
+      119
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      75,
+      111
+    ]
+  },
+  {
+    "donors": [
+      104
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      104
+    ]
+  },
+  {
+    "donors": [
+      74,
+      79,
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      74,
+      79,
+      106
+    ]
+  },
+  {
+    "donors": [
+      26
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      26
+    ]
+  },
+  {
+    "donors": [
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      523
+    ]
+  },
+  {
+    "donors": [
+      118
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      118
+    ]
+  },
+  {
+    "donors": [
+      9,
+      84,
+      122
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      9,
+      84,
+      122
+    ]
+  },
+  {
+    "donors": [
+      77,
+      94,
+      370
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      77,
+      94,
+      370
+    ]
+  },
+  {
+    "donors": [
+      89,
+      341,
+      526
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      89,
+      526
+    ]
+  },
+  {
+    "donors": [
+      52
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      52
+    ]
+  },
+  {
+    "donors": [
+      23,
+      104,
+      133
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      23,
+      104,
+      133
+    ]
+  },
+  {
+    "donors": [
+      128
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      128
+    ]
+  },
+  {
+    "donors": [
+      51,
+      92
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      51,
+      92
+    ]
+  },
+  {
+    "donors": [
+      98
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      98
+    ]
+  },
+  {
+    "donors": [
+      65
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      65
+    ]
+  },
+  {
+    "donors": [
+      37,
+      65,
+      236
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      37,
+      65,
+      236
+    ]
+  },
+  {
+    "donors": [
+      41
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      106,
+      121
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106,
+      121
+    ]
+  },
+  {
+    "donors": [
+      84,
+      92,
+      131
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      84,
+      92,
+      131
+    ]
+  },
+  {
+    "donors": [
+      8,
+      131,
+      370
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      8,
+      131,
+      370
+    ]
+  },
+  {
+    "donors": [
+      22,
+      92
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      22,
+      92
+    ]
+  },
+  {
+    "donors": [
+      134,
+      141,
+      609
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      134,
+      609
+    ]
+  },
+  {
+    "donors": [
+      384,
+      407,
+      598
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      407,
+      598
+    ]
+  },
+  {
+    "donors": [
+      89
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      89
+    ]
+  },
+  {
+    "donors": [
+      131
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      131
+    ]
+  },
+  {
+    "donors": [
+      27,
+      117,
+      131
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      27,
+      117,
+      131
+    ]
+  },
+  {
+    "donors": [
+      82,
+      132,
+      552
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      82
+    ]
+  },
+  {
+    "donors": [
+      84,
+      122
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      84,
+      122
+    ]
+  },
+  {
+    "donors": [
+      16,
+      263,
+      510
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      27,
+      194
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      27,
+      194
+    ]
+  },
+  {
+    "donors": [
+      21,
+      51,
+      122
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      21,
+      51,
+      122
+    ]
+  },
+  {
+    "donors": [
+      8,
+      75
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      8,
+      75
+    ]
+  },
+  {
+    "donors": [
+      206
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      206
+    ]
+  },
+  {
+    "donors": [
+      94,
+      133,
+      183
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      94,
+      133
+    ]
+  },
+  {
+    "donors": [
+      97,
+      263,
+      465
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      97,
+      263,
+      465
+    ]
+  },
+  {
+    "donors": [
+      56,
+      92,
+      457
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      56,
+      92,
+      457
+    ]
+  },
+  {
+    "donors": [
+      75,
+      129,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      75,
+      129
+    ]
+  },
+  {
+    "donors": [
+      106,
+      577
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      39
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      39
+    ]
+  },
+  {
+    "donors": [
+      72
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      72
+    ]
+  },
+  {
+    "donors": [
+      127,
+      137
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      137
+    ]
+  },
+  {
+    "donors": [
+      196,
+      217,
+      242
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      117,
+      129,
+      494
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      117,
+      129
+    ]
+  },
+  {
+    "donors": [
+      129
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      129
+    ]
+  },
+  {
+    "donors": [
+      98
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      98
+    ]
+  },
+  {
+    "donors": [
+      56
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      56
+    ]
+  },
+  {
+    "donors": [
+      31,
+      122,
+      262
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      31,
+      122,
+      262
+    ]
+  },
+  {
+    "donors": [
+      153,
+      277
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      153,
+      277
+    ]
+  },
+  {
+    "donors": [
+      443
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      443
+    ]
+  },
+  {
+    "donors": [
+      90,
+      487,
+      500
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      90,
+      487,
+      500
+    ]
+  },
+  {
+    "donors": [
+      439
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      439
+    ]
+  },
+  {
+    "donors": [
+      48,
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      48,
+      106
+    ]
+  },
+  {
+    "donors": [
+      237,
+      287,
+      328
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      237,
+      287,
+      328
+    ]
+  },
+  {
+    "donors": [
+      35
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      35
+    ]
+  },
+  {
+    "donors": [
+      366,
+      411,
+      480
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      366,
+      480
+    ]
+  },
+  {
+    "donors": [
+      55,
+      174,
+      494
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      174,
+      494
+    ]
+  },
+  {
+    "donors": [
+      147,
+      309,
+      487
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      147,
+      487
+    ]
+  },
+  {
+    "donors": [
+      54,
+      145,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      54,
+      145,
+      512
+    ]
+  },
+  {
+    "donors": [
+      75,
+      374
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      75,
+      374
+    ]
+  },
+  {
+    "donors": [
+      177,
+      460,
+      487
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      177,
+      460,
+      487
+    ]
+  },
+  {
+    "donors": [
+      487
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      487
+    ]
+  },
+  {
+    "donors": [
+      282,
+      443,
+      503
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      282,
+      443,
+      503
+    ]
+  },
+  {
+    "donors": [
+      35
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      74,
+      514,
+      595
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      74,
+      514
+    ]
+  },
+  {
+    "donors": [
+      469,
+      497
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      469,
+      497
+    ]
+  },
+  {
+    "donors": [
+      210,
+      332
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      210,
+      332
+    ]
+  },
+  {
+    "donors": [
+      298,
+      301
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      298
+    ]
+  },
+  {
+    "donors": [
+      488
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      4,
+      77,
+      509
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      4,
+      77,
+      509
+    ]
+  },
+  {
+    "donors": [
+      8,
+      171,
+      448
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      8,
+      171
+    ]
+  },
+  {
+    "donors": [
+      8,
+      75,
+      510
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      8,
+      75,
+      510
+    ]
+  },
+  {
+    "donors": [
+      127,
+      279
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      127,
+      279
+    ]
+  },
+  {
+    "donors": [
+      167,
+      190,
+      193
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      167,
+      190
+    ]
+  },
+  {
+    "donors": [
+      577
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      577
+    ]
+  },
+  {
+    "donors": [
+      87,
+      153
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      87,
+      153
+    ]
+  },
+  {
+    "donors": [
+      37,
+      263
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      37,
+      263
+    ]
+  },
+  {
+    "donors": [
+      98,
+      413,
+      415
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      98,
+      413,
+      415
+    ]
+  },
+  {
+    "donors": [
+      144,
+      178,
+      460
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      144,
+      178,
+      460
+    ]
+  },
+  {
+    "donors": [
+      131,
+      306,
+      337
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      131,
+      306,
+      337
+    ]
+  },
+  {
+    "donors": [
+      82,
+      99,
+      269
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      82,
+      99,
+      269
+    ]
+  },
+  {
+    "donors": [
+      9,
+      177
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      9,
+      177
+    ]
+  },
+  {
+    "donors": [
+      392,
+      555
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      392,
+      555
+    ]
+  },
+  {
+    "donors": [
+      4,
+      183
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      4,
+      183
+    ]
+  },
+  {
+    "donors": [
+      172
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      172
+    ]
+  },
+  {
+    "donors": [
+      94,
+      131
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      94,
+      131
+    ]
+  },
+  {
+    "donors": [
+      192,
+      460
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      192,
+      460
+    ]
+  },
+  {
+    "donors": [
+      91,
+      196,
+      476
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      91,
+      196,
+      476
+    ]
+  },
+  {
+    "donors": [
+      171,
+      183,
+      581
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      171,
+      183,
+      581
+    ]
+  },
+  {
+    "donors": [
+      44
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      44
+    ]
+  },
+  {
+    "donors": [
+      167,
+      169
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      167,
+      169
+    ]
+  },
+  {
+    "donors": [
+      322,
+      566,
+      578
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      322,
+      566,
+      578
+    ]
+  },
+  {
+    "donors": [
+      578
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      578
+    ]
+  },
+  {
+    "donors": [
+      55,
+      170,
+      370
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      55,
+      170,
+      370
+    ]
+  },
+  {
+    "donors": [
+      398
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      398
+    ]
+  },
+  {
+    "donors": [
+      4
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      198
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      198
+    ]
+  },
+  {
+    "donors": [
+      197
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      197
+    ]
+  },
+  {
+    "donors": [
+      383,
+      390,
+      578
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      390
+    ]
+  },
+  {
+    "donors": [
+      370,
+      581
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      370,
+      581
+    ]
+  },
+  {
+    "donors": [
+      199,
+      223,
+      227
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      199,
+      223,
+      227
+    ]
+  },
+  {
+    "donors": [
+      8,
+      193,
+      340
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      8,
+      193
+    ]
+  },
+  {
+    "donors": [
+      238,
+      324
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      238,
+      324
+    ]
+  },
+  {
+    "donors": [
+      189,
+      193,
+      357
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      189,
+      193,
+      357
+    ]
+  },
+  {
+    "donors": [
+      27,
+      108
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      27,
+      108
+    ]
+  },
+  {
+    "donors": [
+      61,
+      192,
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      61,
+      192,
+      320
+    ]
+  },
+  {
+    "donors": [
+      254
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      254
+    ]
+  },
+  {
+    "donors": [
+      15,
+      52,
+      429
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      52,
+      429
+    ]
+  },
+  {
+    "donors": [],
+    "offered_beta": 0.0,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      230
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      230
+    ]
+  },
+  {
+    "donors": [
+      226,
+      239,
+      264
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      239,
+      264
+    ]
+  },
+  {
+    "donors": [
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      320
+    ]
+  },
+  {
+    "donors": [
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      320
+    ]
+  },
+  {
+    "donors": [
+      246
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      246
+    ]
+  },
+  {
+    "donors": [
+      230,
+      244,
+      253
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      230,
+      244,
+      253
+    ]
+  },
+  {
+    "donors": [
+      211
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      211
+    ]
+  },
+  {
+    "donors": [
+      219,
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      219,
+      523
+    ]
+  },
+  {
+    "donors": [
+      236
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      236
+    ]
+  },
+  {
+    "donors": [
+      311
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      311
+    ]
+  },
+  {
+    "donors": [
+      62,
+      430
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      430
+    ]
+  },
+  {
+    "donors": [
+      262,
+      591
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      262,
+      591
+    ]
+  },
+  {
+    "donors": [
+      350,
+      524
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      350,
+      524
+    ]
+  },
+  {
+    "donors": [
+      218
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      218
+    ]
+  },
+  {
+    "donors": [
+      82,
+      463,
+      507
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      82,
+      507
+    ]
+  },
+  {
+    "donors": [
+      219
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      219
+    ]
+  },
+  {
+    "donors": [
+      391
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      391
+    ]
+  },
+  {
+    "donors": [
+      98
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      98
+    ]
+  },
+  {
+    "donors": [
+      230,
+      244,
+      597
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      230,
+      244,
+      597
+    ]
+  },
+  {
+    "donors": [
+      304
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      304
+    ]
+  },
+  {
+    "donors": [
+      275,
+      470
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      275,
+      470
+    ]
+  },
+  {
+    "donors": [
+      98,
+      261,
+      327
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      261,
+      327
+    ]
+  },
+  {
+    "donors": [
+      232,
+      280
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      232,
+      280
+    ]
+  },
+  {
+    "donors": [
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      320
+    ]
+  },
+  {
+    "donors": [
+      318,
+      539,
+      598
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      318,
+      598
+    ]
+  },
+  {
+    "donors": [
+      210,
+      246,
+      324
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      210,
+      246
+    ]
+  },
+  {
+    "donors": [
+      246,
+      260
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      246,
+      260
+    ]
+  },
+  {
+    "donors": [
+      268,
+      303,
+      448
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      268,
+      303
+    ]
+  },
+  {
+    "donors": [
+      251,
+      411,
+      531
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      251,
+      411,
+      531
+    ]
+  },
+  {
+    "donors": [
+      306
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      306
+    ]
+  },
+  {
+    "donors": [
+      214,
+      361
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      214,
+      361
+    ]
+  },
+  {
+    "donors": [
+      258
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      258
+    ]
+  },
+  {
+    "donors": [
+      83,
+      246
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      83,
+      246
+    ]
+  },
+  {
+    "donors": [
+      207,
+      271,
+      275
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      207,
+      271,
+      275
+    ]
+  },
+  {
+    "donors": [
+      306
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      306
+    ]
+  },
+  {
+    "donors": [
+      236,
+      261,
+      557
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      236,
+      261
+    ]
+  },
+  {
+    "donors": [
+      271,
+      306
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      271,
+      306
+    ]
+  },
+  {
+    "donors": [
+      280,
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      280
+    ]
+  },
+  {
+    "donors": [
+      258
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      258
+    ]
+  },
+  {
+    "donors": [
+      217,
+      554,
+      557
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      217,
+      554
+    ]
+  },
+  {
+    "donors": [
+      210,
+      214
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      210,
+      214
+    ]
+  },
+  {
+    "donors": [
+      387
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      387
+    ]
+  },
+  {
+    "donors": [
+      264
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      264
+    ]
+  },
+  {
+    "donors": [
+      241,
+      305,
+      439
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      305
+    ]
+  },
+  {
+    "donors": [
+      271,
+      463,
+      503
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      271,
+      463,
+      503
+    ]
+  },
+  {
+    "donors": [
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      320
+    ]
+  },
+  {
+    "donors": [
+      253
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      253
+    ]
+  },
+  {
+    "donors": [
+      252,
+      354
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      252,
+      354
+    ]
+  },
+  {
+    "donors": [
+      218,
+      406
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      218,
+      406
+    ]
+  },
+  {
+    "donors": [
+      265
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      265
+    ]
+  },
+  {
+    "donors": [
+      249,
+      272,
+      505
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      249,
+      272
+    ]
+  },
+  {
+    "donors": [
+      253,
+      432
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      253,
+      432
+    ]
+  },
+  {
+    "donors": [
+      253
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      253
+    ]
+  },
+  {
+    "donors": [
+      240
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      240
+    ]
+  },
+  {
+    "donors": [
+      387,
+      415
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      387,
+      415
+    ]
+  },
+  {
+    "donors": [
+      230,
+      236,
+      288
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      230,
+      236,
+      288
+    ]
+  },
+  {
+    "donors": [
+      312,
+      343
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      312,
+      343
+    ]
+  },
+  {
+    "donors": [
+      43,
+      95,
+      270
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      43,
+      270
+    ]
+  },
+  {
+    "donors": [
+      138,
+      259,
+      265
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      259,
+      265
+    ]
+  },
+  {
+    "donors": [
+      271
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      271
+    ]
+  },
+  {
+    "donors": [
+      108,
+      362,
+      454
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      108
+    ]
+  },
+  {
+    "donors": [
+      176
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      176
+    ]
+  },
+  {
+    "donors": [
+      213
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      213
+    ]
+  },
+  {
+    "donors": [
+      255,
+      272
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      255,
+      272
+    ]
+  },
+  {
+    "donors": [
+      97
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      97
+    ]
+  },
+  {
+    "donors": [
+      265,
+      274
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      265,
+      274
+    ]
+  },
+  {
+    "donors": [
+      58
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      58
+    ]
+  },
+  {
+    "donors": [
+      253,
+      275,
+      472
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      253,
+      275,
+      472
+    ]
+  },
+  {
+    "donors": [
+      230,
+      306,
+      488
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      230,
+      306,
+      488
+    ]
+  },
+  {
+    "donors": [
+      214,
+      232
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      214,
+      232
+    ]
+  },
+  {
+    "donors": [
+      241,
+      448
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      241,
+      448
+    ]
+  },
+  {
+    "donors": [
+      230
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      230
+    ]
+  },
+  {
+    "donors": [
+      246
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      246
+    ]
+  },
+  {
+    "donors": [
+      72,
+      365,
+      541
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      365
+    ]
+  },
+  {
+    "donors": [
+      228
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      228
+    ]
+  },
+  {
+    "donors": [
+      248,
+      307,
+      365
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      248,
+      307,
+      365
+    ]
+  },
+  {
+    "donors": [
+      85,
+      287,
+      288
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      287,
+      288
+    ]
+  },
+  {
+    "donors": [
+      478
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      478
+    ]
+  },
+  {
+    "donors": [
+      439
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      439
+    ]
+  },
+  {
+    "donors": [
+      488,
+      501
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      488,
+      501
+    ]
+  },
+  {
+    "donors": [
+      503
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      503
+    ]
+  },
+  {
+    "donors": [
+      299
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      299
+    ]
+  },
+  {
+    "donors": [
+      297,
+      298,
+      443
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      297,
+      443
+    ]
+  },
+  {
+    "donors": [
+      293
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      293
+    ]
+  },
+  {
+    "donors": [
+      312,
+      401
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      312,
+      401
+    ]
+  },
+  {
+    "donors": [
+      282
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      282
+    ]
+  },
+  {
+    "donors": [
+      304
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      304
+    ]
+  },
+  {
+    "donors": [
+      217,
+      294,
+      568
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      217,
+      294,
+      568
+    ]
+  },
+  {
+    "donors": [
+      106,
+      550,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106,
+      550,
+      608
+    ]
+  },
+  {
+    "donors": [
+      74
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      74
+    ]
+  },
+  {
+    "donors": [
+      262,
+      292,
+      319
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      262,
+      292,
+      319
+    ]
+  },
+  {
+    "donors": [
+      288
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      288
+    ]
+  },
+  {
+    "donors": [
+      439
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      439
+    ]
+  },
+  {
+    "donors": [
+      487,
+      591
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      487,
+      591
+    ]
+  },
+  {
+    "donors": [
+      150,
+      286,
+      446
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      150,
+      286,
+      446
+    ]
+  },
+  {
+    "donors": [
+      229,
+      487,
+      497
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      229,
+      487,
+      497
+    ]
+  },
+  {
+    "donors": [
+      239
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      239
+    ]
+  },
+  {
+    "donors": [
+      65,
+      305,
+      506
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      305,
+      506
+    ]
+  },
+  {
+    "donors": [
+      225,
+      568
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      225,
+      568
+    ]
+  },
+  {
+    "donors": [
+      261,
+      299,
+      480
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      299,
+      480
+    ]
+  },
+  {
+    "donors": [
+      21,
+      264
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      264
+    ]
+  },
+  {
+    "donors": [
+      271,
+      287,
+      462
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      271,
+      462
+    ]
+  },
+  {
+    "donors": [
+      329
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      329
+    ]
+  },
+  {
+    "donors": [
+      250,
+      271,
+      401
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      250,
+      271,
+      401
+    ]
+  },
+  {
+    "donors": [
+      261,
+      383
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      261,
+      383
+    ]
+  },
+  {
+    "donors": [
+      208,
+      215
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      208,
+      215
+    ]
+  },
+  {
+    "donors": [
+      262,
+      319
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      262,
+      319
+    ]
+  },
+  {
+    "donors": [
+      111,
+      578
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      578
+    ]
+  },
+  {
+    "donors": [
+      176,
+      367,
+      581
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      176,
+      367,
+      581
+    ]
+  },
+  {
+    "donors": [],
+    "offered_beta": 0.0,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      214,
+      314
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      214,
+      314
+    ]
+  },
+  {
+    "donors": [
+      258,
+      582,
+      586
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      258,
+      582,
+      586
+    ]
+  },
+  {
+    "donors": [
+      107,
+      209
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      107,
+      209
+    ]
+  },
+  {
+    "donors": [
+      17
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      17
+    ]
+  },
+  {
+    "donors": [
+      209,
+      258,
+      356
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      209,
+      258,
+      356
+    ]
+  },
+  {
+    "donors": [
+      244,
+      258
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      244,
+      258
+    ]
+  },
+  {
+    "donors": [
+      401
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      401
+    ]
+  },
+  {
+    "donors": [
+      286,
+      300
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      286,
+      300
+    ]
+  },
+  {
+    "donors": [
+      191,
+      361,
+      367
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      361,
+      367
+    ]
+  },
+  {
+    "donors": [
+      278,
+      328
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      28,
+      384,
+      601
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      384,
+      601
+    ]
+  },
+  {
+    "donors": [
+      324,
+      361,
+      374
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      324,
+      361,
+      374
+    ]
+  },
+  {
+    "donors": [
+      329,
+      394
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      329,
+      394
+    ]
+  },
+  {
+    "donors": [
+      308
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      308
+    ]
+  },
+  {
+    "donors": [
+      334
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      334
+    ]
+  },
+  {
+    "donors": [
+      295,
+      374,
+      400
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      374,
+      400
+    ]
+  },
+  {
+    "donors": [
+      111
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      111
+    ]
+  },
+  {
+    "donors": [
+      434,
+      435
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      434,
+      435
+    ]
+  },
+  {
+    "donors": [
+      343,
+      361,
+      470
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      343,
+      361
+    ]
+  },
+  {
+    "donors": [
+      11,
+      337,
+      359
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      11,
+      337,
+      359
+    ]
+  },
+  {
+    "donors": [
+      464
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      464
+    ]
+  },
+  {
+    "donors": [
+      88
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      512
+    ]
+  },
+  {
+    "donors": [
+      394
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      394
+    ]
+  },
+  {
+    "donors": [
+      191,
+      400,
+      437
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      400,
+      437
+    ]
+  },
+  {
+    "donors": [
+      392,
+      396
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      392,
+      396
+    ]
+  },
+  {
+    "donors": [
+      338,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      608
+    ]
+  },
+  {
+    "donors": [
+      394,
+      396
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      394,
+      396
+    ]
+  },
+  {
+    "donors": [
+      106,
+      357,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      106,
+      512
+    ]
+  },
+  {
+    "donors": [
+      421
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      421
+    ]
+  },
+  {
+    "donors": [
+      121,
+      347
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      121,
+      347
+    ]
+  },
+  {
+    "donors": [
+      415
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      415
+    ]
+  },
+  {
+    "donors": [
+      435
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      435
+    ]
+  },
+  {
+    "donors": [
+      36,
+      213,
+      417
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      36,
+      213,
+      417
+    ]
+  },
+  {
+    "donors": [
+      320,
+      387,
+      415
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      320,
+      415
+    ]
+  },
+  {
+    "donors": [
+      434
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      434
+    ]
+  },
+  {
+    "donors": [
+      258,
+      529
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      258,
+      529
+    ]
+  },
+  {
+    "donors": [
+      121,
+      427
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      121,
+      427
+    ]
+  },
+  {
+    "donors": [
+      90,
+      328,
+      356
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      90,
+      328,
+      356
+    ]
+  },
+  {
+    "donors": [
+      421
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      421
+    ]
+  },
+  {
+    "donors": [
+      320,
+      435
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      320,
+      435
+    ]
+  },
+  {
+    "donors": [
+      129,
+      359
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      359
+    ]
+  },
+  {
+    "donors": [
+      22,
+      143,
+      448
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      22,
+      448
+    ]
+  },
+  {
+    "donors": [
+      98,
+      332,
+      361
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      98,
+      332,
+      361
+    ]
+  },
+  {
+    "donors": [
+      314,
+      362,
+      401
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      314,
+      362
+    ]
+  },
+  {
+    "donors": [
+      118,
+      374
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      374
+    ]
+  },
+  {
+    "donors": [
+      45,
+      453
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      45,
+      453
+    ]
+  },
+  {
+    "donors": [
+      27,
+      133,
+      501
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      27,
+      133
+    ]
+  },
+  {
+    "donors": [
+      199,
+      374,
+      613
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      374,
+      613
+    ]
+  },
+  {
+    "donors": [
+      279
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      279
+    ]
+  },
+  {
+    "donors": [
+      413,
+      424,
+      524
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      413,
+      424,
+      524
+    ]
+  },
+  {
+    "donors": [
+      400,
+      586,
+      605
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      400
+    ]
+  },
+  {
+    "donors": [
+      578
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      578
+    ]
+  },
+  {
+    "donors": [
+      374,
+      415,
+      549
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      374,
+      415
+    ]
+  },
+  {
+    "donors": [
+      374
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      374
+    ]
+  },
+  {
+    "donors": [
+      359,
+      367
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      359,
+      367
+    ]
+  },
+  {
+    "donors": [
+      199,
+      359,
+      571
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      359,
+      571
+    ]
+  },
+  {
+    "donors": [
+      88,
+      331,
+      374
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      88,
+      331,
+      374
+    ]
+  },
+  {
+    "donors": [
+      324
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      324
+    ]
+  },
+  {
+    "donors": [
+      469,
+      477,
+      529
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      469,
+      477
+    ]
+  },
+  {
+    "donors": [
+      193,
+      559
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      339
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      346,
+      413,
+      415
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      346,
+      413,
+      415
+    ]
+  },
+  {
+    "donors": [
+      381
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      381
+    ]
+  },
+  {
+    "donors": [
+      381,
+      382
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      381,
+      382
+    ]
+  },
+  {
+    "donors": [
+      382
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      382
+    ]
+  },
+  {
+    "donors": [
+      460,
+      541
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      460
+    ]
+  },
+  {
+    "donors": [
+      14,
+      47,
+      391
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      14,
+      47,
+      391
+    ]
+  },
+  {
+    "donors": [
+      121,
+      390
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      121,
+      390
+    ]
+  },
+  {
+    "donors": [
+      367,
+      374,
+      470
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      367,
+      374,
+      470
+    ]
+  },
+  {
+    "donors": [
+      435
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      435
+    ]
+  },
+  {
+    "donors": [
+      390,
+      439,
+      442
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      390,
+      439,
+      442
+    ]
+  },
+  {
+    "donors": [
+      328
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      328
+    ]
+  },
+  {
+    "donors": [
+      344,
+      394,
+      421
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      344,
+      394,
+      421
+    ]
+  },
+  {
+    "donors": [
+      387
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      387
+    ]
+  },
+  {
+    "donors": [
+      261,
+      383,
+      386
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      261,
+      383,
+      386
+    ]
+  },
+  {
+    "donors": [
+      91,
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      91,
+      106
+    ]
+  },
+  {
+    "donors": [
+      396,
+      404
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      396,
+      404
+    ]
+  },
+  {
+    "donors": [
+      225,
+      295
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      312,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      312,
+      512
+    ]
+  },
+  {
+    "donors": [
+      339,
+      343
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      339,
+      343
+    ]
+  },
+  {
+    "donors": [
+      512,
+      550
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      512,
+      550
+    ]
+  },
+  {
+    "donors": [
+      401
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      401
+    ]
+  },
+  {
+    "donors": [
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      398
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      398
+    ]
+  },
+  {
+    "donors": [
+      359,
+      390,
+      398
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      359,
+      390,
+      398
+    ]
+  },
+  {
+    "donors": [
+      74,
+      333,
+      396
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      333,
+      396
+    ]
+  },
+  {
+    "donors": [
+      400,
+      434
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      400,
+      434
+    ]
+  },
+  {
+    "donors": [
+      319,
+      396,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      319,
+      396,
+      512
+    ]
+  },
+  {
+    "donors": [
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      48,
+      219
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      48,
+      219
+    ]
+  },
+  {
+    "donors": [
+      107,
+      344
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      107,
+      344
+    ]
+  },
+  {
+    "donors": [
+      48,
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      48,
+      523
+    ]
+  },
+  {
+    "donors": [
+      532
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      532
+    ]
+  },
+  {
+    "donors": [
+      503
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      218
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      218
+    ]
+  },
+  {
+    "donors": [
+      211,
+      528
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      528
+    ]
+  },
+  {
+    "donors": [
+      415,
+      424,
+      516
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      415,
+      424
+    ]
+  },
+  {
+    "donors": [
+      320,
+      428,
+      431
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      320,
+      428,
+      431
+    ]
+  },
+  {
+    "donors": [
+      350,
+      390,
+      428
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      350,
+      428
+    ]
+  },
+  {
+    "donors": [
+      55,
+      374
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      55,
+      374
+    ]
+  },
+  {
+    "donors": [
+      405
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      405
+    ]
+  },
+  {
+    "donors": [
+      406
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      406
+    ]
+  },
+  {
+    "donors": [
+      121,
+      431,
+      434
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      121,
+      431,
+      434
+    ]
+  },
+  {
+    "donors": [
+      79,
+      468
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      79
+    ]
+  },
+  {
+    "donors": [
+      425
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      425
+    ]
+  },
+  {
+    "donors": [
+      34
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      356
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      356
+    ]
+  },
+  {
+    "donors": [
+      413
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      413
+    ]
+  },
+  {
+    "donors": [
+      421
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      421
+    ]
+  },
+  {
+    "donors": [
+      405,
+      412
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      405,
+      412
+    ]
+  },
+  {
+    "donors": [
+      398,
+      602
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      398
+    ]
+  },
+  {
+    "donors": [
+      15,
+      346,
+      415
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      15,
+      346,
+      415
+    ]
+  },
+  {
+    "donors": [
+      398,
+      549
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      398
+    ]
+  },
+  {
+    "donors": [
+      32,
+      401,
+      424
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      32,
+      424
+    ]
+  },
+  {
+    "donors": [
+      411,
+      413
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      411,
+      413
+    ]
+  },
+  {
+    "donors": [
+      252
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      252
+    ]
+  },
+  {
+    "donors": [
+      229,
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      523
+    ]
+  },
+  {
+    "donors": [
+      411
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      411
+    ]
+  },
+  {
+    "donors": [
+      348,
+      524
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      348,
+      524
+    ]
+  },
+  {
+    "donors": [
+      320
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      320
+    ]
+  },
+  {
+    "donors": [
+      314,
+      324,
+      581
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      314,
+      324,
+      581
+    ]
+  },
+  {
+    "donors": [
+      284
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      284
+    ]
+  },
+  {
+    "donors": [
+      413,
+      443
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      413,
+      443
+    ]
+  },
+  {
+    "donors": [
+      443
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      443
+    ]
+  },
+  {
+    "donors": [
+      285,
+      446
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      285,
+      446
+    ]
+  },
+  {
+    "donors": [
+      62,
+      439,
+      487
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      439
+    ]
+  },
+  {
+    "donors": [
+      439
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      439
+    ]
+  },
+  {
+    "donors": [
+      439
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      439
+    ]
+  },
+  {
+    "donors": [
+      503
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      503
+    ]
+  },
+  {
+    "donors": [
+      298
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      298
+    ]
+  },
+  {
+    "donors": [
+      374,
+      448,
+      469
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      374,
+      448,
+      469
+    ]
+  },
+  {
+    "donors": [
+      22,
+      376,
+      427
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      22
+    ]
+  },
+  {
+    "donors": [
+      117,
+      190,
+      459
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      102,
+      443,
+      455
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      102,
+      443,
+      455
+    ]
+  },
+  {
+    "donors": [
+      461
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      461
+    ]
+  },
+  {
+    "donors": [
+      257
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      257
+    ]
+  },
+  {
+    "donors": [
+      360,
+      362,
+      470
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      360,
+      362,
+      470
+    ]
+  },
+  {
+    "donors": [
+      26,
+      240
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      26,
+      240
+    ]
+  },
+  {
+    "donors": [
+      111
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      453
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      453
+    ]
+  },
+  {
+    "donors": [
+      104,
+      461
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      104,
+      461
+    ]
+  },
+  {
+    "donors": [
+      476
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      476
+    ]
+  },
+  {
+    "donors": [
+      447,
+      570,
+      578
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      468
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      468
+    ]
+  },
+  {
+    "donors": [
+      29,
+      33,
+      508
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      508
+    ]
+  },
+  {
+    "donors": [
+      138,
+      302
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      138
+    ]
+  },
+  {
+    "donors": [
+      269,
+      271
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      269,
+      271
+    ]
+  },
+  {
+    "donors": [
+      92
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      92
+    ]
+  },
+  {
+    "donors": [
+      132
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      132
+    ]
+  },
+  {
+    "donors": [
+      104,
+      132,
+      546
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      104,
+      132
+    ]
+  },
+  {
+    "donors": [
+      480
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      480
+    ]
+  },
+  {
+    "donors": [
+      119,
+      460,
+      461
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      460,
+      461
+    ]
+  },
+  {
+    "donors": [
+      316,
+      543
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      543
+    ]
+  },
+  {
+    "donors": [
+      163,
+      329,
+      390
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      163,
+      329,
+      390
+    ]
+  },
+  {
+    "donors": [
+      197,
+      469,
+      489
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      197,
+      469,
+      489
+    ]
+  },
+  {
+    "donors": [
+      261,
+      470
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      261,
+      470
+    ]
+  },
+  {
+    "donors": [
+      469
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      469
+    ]
+  },
+  {
+    "donors": [
+      246,
+      275
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      275
+    ]
+  },
+  {
+    "donors": [
+      93,
+      316,
+      388
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      93,
+      316,
+      388
+    ]
+  },
+  {
+    "donors": [
+      571
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      571
+    ]
+  },
+  {
+    "donors": [
+      558
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      558
+    ]
+  },
+  {
+    "donors": [
+      387,
+      480,
+      487
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      387,
+      480,
+      487
+    ]
+  },
+  {
+    "donors": [
+      480,
+      484
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      480
+    ]
+  },
+  {
+    "donors": [
+      158
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      158
+    ]
+  },
+  {
+    "donors": [
+      494
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      494
+    ]
+  },
+  {
+    "donors": [
+      35
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      35
+    ]
+  },
+  {
+    "donors": [
+      270,
+      506
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      270,
+      506
+    ]
+  },
+  {
+    "donors": [
+      154,
+      494
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      154,
+      494
+    ]
+  },
+  {
+    "donors": [
+      469,
+      507
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      507
+    ]
+  },
+  {
+    "donors": [
+      43,
+      491
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      491
+    ]
+  },
+  {
+    "donors": [
+      284
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      284
+    ]
+  },
+  {
+    "donors": [
+      480
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      480
+    ]
+  },
+  {
+    "donors": [
+      439
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      439
+    ]
+  },
+  {
+    "donors": [
+      497
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      497
+    ]
+  },
+  {
+    "donors": [
+      260,
+      506,
+      540
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      506,
+      540
+    ]
+  },
+  {
+    "donors": [
+      287,
+      583
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      287,
+      583
+    ]
+  },
+  {
+    "donors": [
+      16,
+      462,
+      509
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      16,
+      462,
+      509
+    ]
+  },
+  {
+    "donors": [
+      442,
+      481,
+      497
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      481,
+      497
+    ]
+  },
+  {
+    "donors": [
+      305
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      305
+    ]
+  },
+  {
+    "donors": [
+      65,
+      467,
+      497
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      65,
+      467,
+      497
+    ]
+  },
+  {
+    "donors": [
+      491
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      491
+    ]
+  },
+  {
+    "donors": [
+      239,
+      258
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      239,
+      258
+    ]
+  },
+  {
+    "donors": [
+      154
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      154
+    ]
+  },
+  {
+    "donors": [
+      495,
+      497,
+      503
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      495,
+      497,
+      503
+    ]
+  },
+  {
+    "donors": [
+      487,
+      559
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      487
+    ]
+  },
+  {
+    "donors": [
+      494
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      494
+    ]
+  },
+  {
+    "donors": [
+      486,
+      488
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      486,
+      488
+    ]
+  },
+  {
+    "donors": [
+      497
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      497
+    ]
+  },
+  {
+    "donors": [
+      287,
+      494
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      287,
+      494
+    ]
+  },
+  {
+    "donors": [
+      469,
+      523,
+      531
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      531
+    ]
+  },
+  {
+    "donors": [
+      488
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      488
+    ]
+  },
+  {
+    "donors": [
+      461,
+      586
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      461
+    ]
+  },
+  {
+    "donors": [
+      149,
+      219
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      149,
+      219
+    ]
+  },
+  {
+    "donors": [
+      573,
+      591
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      573,
+      591
+    ]
+  },
+  {
+    "donors": [
+      203,
+      515,
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      515,
+      523
+    ]
+  },
+  {
+    "donors": [
+      74
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      74
+    ]
+  },
+  {
+    "donors": [
+      533,
+      544
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      533,
+      544
+    ]
+  },
+  {
+    "donors": [
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      512
+    ]
+  },
+  {
+    "donors": [
+      531
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      531
+    ]
+  },
+  {
+    "donors": [
+      237,
+      533
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      533
+    ]
+  },
+  {
+    "donors": [
+      520
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      520
+    ]
+  },
+  {
+    "donors": [
+      206,
+      521
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      206,
+      521
+    ]
+  },
+  {
+    "donors": [
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      523
+    ]
+  },
+  {
+    "donors": [
+      521
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      521
+    ]
+  },
+  {
+    "donors": [
+      517
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      517
+    ]
+  },
+  {
+    "donors": [
+      406,
+      430
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      406,
+      430
+    ]
+  },
+  {
+    "donors": [
+      528,
+      531
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      528,
+      531
+    ]
+  },
+  {
+    "donors": [
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      523
+    ]
+  },
+  {
+    "donors": [
+      403,
+      421,
+      533
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      421,
+      533
+    ]
+  },
+  {
+    "donors": [
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      511,
+      528
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      528
+    ]
+  },
+  {
+    "donors": [
+      531
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      531
+    ]
+  },
+  {
+    "donors": [
+      106,
+      421,
+      436
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106,
+      421,
+      436
+    ]
+  },
+  {
+    "donors": [
+      519,
+      528
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      519,
+      528
+    ]
+  },
+  {
+    "donors": [
+      523
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      523
+    ]
+  },
+  {
+    "donors": [
+      320,
+      356,
+      431
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      320,
+      356
+    ]
+  },
+  {
+    "donors": [
+      531
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      531
+    ]
+  },
+  {
+    "donors": [
+      524,
+      533
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      524,
+      533
+    ]
+  },
+  {
+    "donors": [
+      135,
+      516
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      135,
+      516
+    ]
+  },
+  {
+    "donors": [
+      514
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      514
+    ]
+  },
+  {
+    "donors": [
+      0,
+      162,
+      181
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      0,
+      162,
+      181
+    ]
+  },
+  {
+    "donors": [
+      225,
+      394,
+      543
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      394,
+      543
+    ]
+  },
+  {
+    "donors": [
+      230,
+      353,
+      469
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      230,
+      469
+    ]
+  },
+  {
+    "donors": [
+      97,
+      281,
+      503
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      97,
+      281,
+      503
+    ]
+  },
+  {
+    "donors": [
+      125,
+      337,
+      457
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      125,
+      337,
+      457
+    ]
+  },
+  {
+    "donors": [
+      36,
+      106,
+      461
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      36,
+      106
+    ]
+  },
+  {
+    "donors": [
+      75,
+      469,
+      512
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      75,
+      469,
+      512
+    ]
+  },
+  {
+    "donors": [
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      401,
+      494,
+      598
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      494,
+      598
+    ]
+  },
+  {
+    "donors": [
+      400
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      400
+    ]
+  },
+  {
+    "donors": [
+      600
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      600
+    ]
+  },
+  {
+    "donors": [
+      304,
+      557,
+      577
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      557,
+      577
+    ]
+  },
+  {
+    "donors": [
+      430
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      430
+    ]
+  },
+  {
+    "donors": [
+      312,
+      582,
+      612
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      312,
+      582,
+      612
+    ]
+  },
+  {
+    "donors": [
+      434,
+      579,
+      584
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      434,
+      579,
+      584
+    ]
+  },
+  {
+    "donors": [
+      375,
+      559,
+      603
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      559,
+      603
+    ]
+  },
+  {
+    "donors": [
+      106,
+      573
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      141,
+      571
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      141,
+      571
+    ]
+  },
+  {
+    "donors": [
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      608
+    ]
+  },
+  {
+    "donors": [
+      582,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      582,
+      608
+    ]
+  },
+  {
+    "donors": [
+      319,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      319,
+      608
+    ]
+  },
+  {
+    "donors": [
+      189,
+      357,
+      583
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      189,
+      357
+    ]
+  },
+  {
+    "donors": [
+      552
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      552
+    ]
+  },
+  {
+    "donors": [
+      436
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      436
+    ]
+  },
+  {
+    "donors": [
+      121,
+      524
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      524
+    ]
+  },
+  {
+    "donors": [
+      610
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      610
+    ]
+  },
+  {
+    "donors": [
+      448,
+      610
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      448,
+      610
+    ]
+  },
+  {
+    "donors": [
+      304,
+      545
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      545
+    ]
+  },
+  {
+    "donors": [
+      582
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      582
+    ]
+  },
+  {
+    "donors": [
+      581,
+      610
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      581,
+      610
+    ]
+  },
+  {
+    "donors": [
+      571
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      571
+    ]
+  },
+  {
+    "donors": [
+      582,
+      600
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      582,
+      600
+    ]
+  },
+  {
+    "donors": [
+      225,
+      477,
+      555
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      477,
+      555
+    ]
+  },
+  {
+    "donors": [
+      332,
+      578
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      332,
+      578
+    ]
+  },
+  {
+    "donors": [
+      581,
+      591
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      581,
+      591
+    ]
+  },
+  {
+    "donors": [
+      8,
+      192,
+      609
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      192,
+      609
+    ]
+  },
+  {
+    "donors": [
+      553
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      553
+    ]
+  },
+  {
+    "donors": [
+      437,
+      554,
+      610
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      437,
+      554,
+      610
+    ]
+  },
+  {
+    "donors": [
+      230
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      230
+    ]
+  },
+  {
+    "donors": [
+      377,
+      553,
+      573
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      553,
+      573
+    ]
+  },
+  {
+    "donors": [
+      75,
+      548
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      75,
+      548
+    ]
+  },
+  {
+    "donors": [
+      74,
+      171,
+      566
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      74,
+      171
+    ]
+  },
+  {
+    "donors": [
+      346
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      346
+    ]
+  },
+  {
+    "donors": [
+      80,
+      244,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      80,
+      244,
+      608
+    ]
+  },
+  {
+    "donors": [
+      587,
+      603,
+      610
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      587,
+      603,
+      610
+    ]
+  },
+  {
+    "donors": [
+      568
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      568
+    ]
+  },
+  {
+    "donors": [
+      587
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      587
+    ]
+  },
+  {
+    "donors": [
+      36,
+      106,
+      346
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      36,
+      106,
+      346
+    ]
+  },
+  {
+    "donors": [
+      331,
+      597
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      331,
+      597
+    ]
+  },
+  {
+    "donors": [
+      580
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      332,
+      581
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      332,
+      581
+    ]
+  },
+  {
+    "donors": [
+      129,
+      357,
+      394
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      129,
+      357,
+      394
+    ]
+  },
+  {
+    "donors": [
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      608
+    ]
+  },
+  {
+    "donors": [
+      512,
+      617
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      512,
+      617
+    ]
+  },
+  {
+    "donors": [
+      217,
+      571
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      217,
+      571
+    ]
+  },
+  {
+    "donors": [
+      304,
+      550,
+      590
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      550,
+      590
+    ]
+  },
+  {
+    "donors": [
+      566
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      566
+    ]
+  },
+  {
+    "donors": [
+      530
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      530
+    ]
+  },
+  {
+    "donors": [
+      253
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      253
+    ]
+  },
+  {
+    "donors": [
+      408
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      408
+    ]
+  },
+  {
+    "donors": [
+      106
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      106
+    ]
+  },
+  {
+    "donors": [
+      602
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      602
+    ]
+  },
+  {
+    "donors": [
+      458
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      458
+    ]
+  },
+  {
+    "donors": [
+      547,
+      568,
+      591
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      568,
+      591
+    ]
+  },
+  {
+    "donors": [
+      106,
+      369,
+      602
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      106,
+      602
+    ]
+  },
+  {
+    "donors": [
+      67,
+      427,
+      601
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      67,
+      427,
+      601
+    ]
+  },
+  {
+    "donors": [
+      552
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      552
+    ]
+  },
+  {
+    "donors": [],
+    "offered_beta": 0.0,
+    "actual_beta": 0.0,
+    "available_donors": []
+  },
+  {
+    "donors": [
+      374,
+      610
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      374,
+      610
+    ]
+  },
+  {
+    "donors": [
+      558,
+      591
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      558,
+      591
+    ]
+  },
+  {
+    "donors": [
+      7,
+      455,
+      563
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.1111111111111111,
+    "available_donors": [
+      7
+    ]
+  },
+  {
+    "donors": [
+      555,
+      556,
+      612
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      555,
+      556,
+      612
+    ]
+  },
+  {
+    "donors": [
+      558,
+      581,
+      599
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      558,
+      581,
+      599
+    ]
+  },
+  {
+    "donors": [
+      447,
+      566
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      447,
+      566
+    ]
+  },
+  {
+    "donors": [
+      571
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      571
+    ]
+  },
+  {
+    "donors": [
+      341,
+      608
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.16666666666666666,
+    "available_donors": [
+      608
+    ]
+  },
+  {
+    "donors": [
+      374
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      374
+    ]
+  },
+  {
+    "donors": [
+      413,
+      424,
+      431
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.2222222222222222,
+    "available_donors": [
+      424,
+      431
+    ]
+  },
+  {
+    "donors": [
+      75,
+      98,
+      469
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      75,
+      98,
+      469
+    ]
+  },
+  {
+    "donors": [
+      573,
+      615
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      573,
+      615
+    ]
+  },
+  {
+    "donors": [
+      590
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      590
+    ]
+  },
+  {
+    "donors": [
+      615
+    ],
+    "offered_beta": 0.3333333333333333,
+    "actual_beta": 0.3333333333333333,
+    "available_donors": [
+      615
+    ]
+  }
+]

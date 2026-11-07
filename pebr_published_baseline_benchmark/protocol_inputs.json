@@ -1,0 +1,43 @@
+{
+  "original": {
+    "counts": "44bad14b3c55b48d9752466b3e75da47192b9a4c49a5b43e29bdff98e75c730d",
+    "source": "9368e782efe0a0b54a30ccf014fa5d98c56f851a59be691e4b946924649563bb",
+    "folds": "3f46d552c500c71d82ce3a55ee639b824d432c2395c84714eaaf6d8ed29df331",
+    "families": "16d340be818440d289506a72b5759a2e3ff05e2c134f1d51e11d1a7d51954a02",
+    "words": "0769a3e2fe812df75dbe599f9af7bd4fb4c0562c9dbcb9c319dbce875e7af1cf",
+    "tokens": "f44f80ac29b0bb535a13600913fa0d4ba84b34e7b1de3e180862e23d53c9d17b"
+  },
+  "prepared_subdirectory": "indian_transport/primary_full_2ae4a61d27adecfc",
+  "embeddings_sha256": "9167c4e46d5e5698a0064651a7cf49cd01e276ef7509c3570db30f8ba7ab6361",
+  "glove_sha256": "b2652cc9fb8b026a6636191ba7deb396dc36d3c1de5c1f5076c63dbf39f6d94f",
+  "upstream": {
+    "encot": {
+      "repository": "manhdo249/EnCOT",
+      "commit": "8ac3592165cc7851676be2776b314eb6e44e9388",
+      "files": {
+        "topmost/models/NewMethod/NewMethod.py": "11fc37784add0634083cd6e96753d7e10814336972cff14d22fd9c9ad4121d2a",
+        "topmost/models/NewMethod/ECR.py": "ba53afbb7aef54c976cf28fca9d321a0b275eb26e99881cc4e0d7ac5a0efa438",
+        "topmost/models/NewMethod/_ETP.py": "77add3c26deacbf8fe252ea331c583e80dfdd137faa9cdb8fc5c22d7051f65f6",
+        "topmost/models/NewMethod/_model_utils.py": "dafd02ddbc657f030ee2dbbf037063e8b4af8139e6c4bc1945c947583cdee75e"
+      }
+    },
+    "fastopic": {
+      "repository": "BobXWu/FASTopic",
+      "commit": "51150f1ac22c4599ab0e390b14c031a98cffed68",
+      "files": {
+        "fastopic/_fastopic.py": "7100581db9ef802e4bcf6520a66681920cd7110693bc91bf96a55025ca9e31d2",
+        "fastopic/_ETP.py": "4663f18fe1f32b93df2cad9e4633ea0b6f217fe46f728862238348a08ff7c233",
+        "fastopic/_model_utils.py": "dafd02ddbc657f030ee2dbbf037063e8b4af8139e6c4bc1945c947583cdee75e"
+      }
+    },
+    "neuromax": {
+      "repository": "Fsoft-AIC/NeuroMax",
+      "commit": "98a53b6ac91de2fc605c9dfd31931167faa18171",
+      "files": {
+        "NeuroMax/NeuroMax.py": "13fde5b004d360cc32e3e6f502b72c5c2291784fb34d7dba5a9323e70c7b43b5",
+        "NeuroMax/ECR.py": "01803a1750e941c300906a7e094a99afb58124402a11a54facebe556c6af554e",
+        "NeuroMax/GR.py": "1f70c5b1c72e891227f0d137948d8af7c8e33ef624de1f8847a71f150fe20caf"
+      }
+    }
+  }
+}

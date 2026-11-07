@@ -1,0 +1,7 @@
+# Execution Foundation: validated configuration; future stages are gated.
+evaluation:
+  topic:
+    primary: npmi
+    diversity: true
+    supplementary_cv: true
+    original_text_reference: true

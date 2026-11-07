@@ -1,0 +1,4 @@
+experiment:
+  name: proposed_borrowing
+  stage: borrowing_rule
+  mode: run

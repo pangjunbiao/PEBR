@@ -1,0 +1,5 @@
+# Execution Foundation: validated configuration; future stages are gated.
+experiment:
+  name: smoke
+  stage: model_smoke
+  mode: run

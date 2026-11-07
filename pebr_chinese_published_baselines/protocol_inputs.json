@@ -1,0 +1,44 @@
+{
+  "original": {
+    "counts": "11c0a45cf06657f5f5cfd408175cd04cabdfedcdd60f09531b99183c61997b46",
+    "source": "319c08fc82b62fdd3ce58fc859ee8e76cf5579bc61db06133f732a758e15f9e0",
+    "folds": "0e6b5fcc6a28484c14c22bd5b74c2302be4bae0d935ee6af09a101991c468e07",
+    "families": "85047006be1bdf9f4eec10b8937c4bf2e5ef7b34a82f4e9309fa8601b4df17ad",
+    "words": "c145b6a15bbb6ed813849403915d95b843e2b918e823c28ea00fb62932b2cd40",
+    "tokens": "d0d82b2387fd348c76f2f3135f3b3aa73e123809426de96cb902ac8e08824b6d"
+  },
+  "prepared_subdirectory": "chinese_transport/chinese_pooled_6fc12dd9f1c1693b",
+  "embeddings_sha256": "420edbb1cc52ba8b5ad75aa5adafa87f5c11a61095dd969bb23b4545ca179e50",
+  "word_vector_directory": "assets/pretrained/chinese_word_embeddings/f57c326358a828b511799e65",
+  "word_vectors_values_sha256": "023488517a1a6eb97f539517ead371819d0249c9fffb2aff9aecac505f21d72b",
+  "upstream": {
+    "encot": {
+      "repository": "manhdo249/EnCOT",
+      "commit": "8ac3592165cc7851676be2776b314eb6e44e9388",
+      "files": {
+        "topmost/models/NewMethod/NewMethod.py": "11fc37784add0634083cd6e96753d7e10814336972cff14d22fd9c9ad4121d2a",
+        "topmost/models/NewMethod/ECR.py": "ba53afbb7aef54c976cf28fca9d321a0b275eb26e99881cc4e0d7ac5a0efa438",
+        "topmost/models/NewMethod/_ETP.py": "77add3c26deacbf8fe252ea331c583e80dfdd137faa9cdb8fc5c22d7051f65f6",
+        "topmost/models/NewMethod/_model_utils.py": "dafd02ddbc657f030ee2dbbf037063e8b4af8139e6c4bc1945c947583cdee75e"
+      }
+    },
+    "fastopic": {
+      "repository": "BobXWu/FASTopic",
+      "commit": "51150f1ac22c4599ab0e390b14c031a98cffed68",
+      "files": {
+        "fastopic/_fastopic.py": "7100581db9ef802e4bcf6520a66681920cd7110693bc91bf96a55025ca9e31d2",
+        "fastopic/_ETP.py": "4663f18fe1f32b93df2cad9e4633ea0b6f217fe46f728862238348a08ff7c233",
+        "fastopic/_model_utils.py": "dafd02ddbc657f030ee2dbbf037063e8b4af8139e6c4bc1945c947583cdee75e"
+      }
+    },
+    "neuromax": {
+      "repository": "Fsoft-AIC/NeuroMax",
+      "commit": "98a53b6ac91de2fc605c9dfd31931167faa18171",
+      "files": {
+        "NeuroMax/NeuroMax.py": "13fde5b004d360cc32e3e6f502b72c5c2291784fb34d7dba5a9323e70c7b43b5",
+        "NeuroMax/ECR.py": "01803a1750e941c300906a7e094a99afb58124402a11a54facebe556c6af554e",
+        "NeuroMax/GR.py": "1f70c5b1c72e891227f0d137948d8af7c8e33ef624de1f8847a71f150fe20caf"
+      }
+    }
+  }
+}

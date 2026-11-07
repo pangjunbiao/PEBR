@@ -1,0 +1,205 @@
+{
+  "protocol": {
+    "schema": "pebr_revision_core_v1",
+    "status": "prespecified_design_not_a_performance_result",
+    "purpose": "Estimate repeatable added value over simpler borrowing and justify retained decisions",
+    "corpora": [
+      "transport_grievance",
+      "chinese_pooled"
+    ],
+    "dataset_roles": "equal core evaluation scope; no primary corpus chosen from outcome rankings",
+    "topic_counts": [
+      8,
+      10,
+      12
+    ],
+    "main_topic_count": 12,
+    "selection_mask_bases": [
+      2711
+    ],
+    "default_fold_seed": 2710,
+    "default_reference_seed": 0,
+    "family_folds": 5,
+    "views": 20,
+    "candidates_per_view": 20,
+    "max_donors": 3,
+    "masking": {
+      "unit": "retained word type",
+      "hide_fraction": 0.5,
+      "minimum_types": 4,
+      "query_removal": "all occurrences of every hidden type"
+    },
+    "reference_predictor": {
+      "topics_equal_final_K": true,
+      "folds": 5,
+      "seed": 0,
+      "smoothing": 0.1,
+      "unigram_smoothing": 0.1,
+      "nmf_tolerance": 0.0001,
+      "nmf_max_iterations": 2000
+    },
+    "final_nmf": {
+      "tolerance": 0.0001,
+      "max_iterations": 2000,
+      "inference": "original posts with learned dictionary fixed"
+    },
+    "corpus_preparation": {
+      "minimum_document_frequency": 2,
+      "family_threshold": 0.9,
+      "vocabulary_and_stopwords": "audited language-specific preparation retained"
+    },
+    "cap": 0.3333333333333333,
+    "downside_weight": 1.0,
+    "admission_margin": 1e-08,
+    "positive_budget_cap_fractions": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "borrowed_evidence": "complete normalized donor word distributions; equal offered shares; unavailable shares return to receiver",
+    "scoring": "hidden-token-share times hidden gain minus visible-token-share times visible loss",
+    "preprocessing": "unchanged audited counts, vocabulary and original post records; language-specific tokenizers and frozen encoders retained",
+    "policies": [
+      "nmf_original",
+      "nmf_similarity",
+      "full_pool_loo",
+      "proposed",
+      "preserve_forward_fixed_cap",
+      "matched_preserve_fixed",
+      "preserve_fixed_prefix",
+      "weighted_hidden_fixed",
+      "preserve_fixed_no_downside",
+      "preserve_fixed_individual",
+      "preserve_fixed_single_view"
+    ],
+    "control_definitions": {
+      "nmf_original": "No borrowing; five final seeds per corpus/K reused, not refitted per mask.",
+      "nmf_similarity": "Original full-receiver cosine ranking of the masked-view candidate union; top three at cap without admission.",
+      "full_pool_loo": "Original hidden-word full-pool leave-one-out removal utility, top three at cap without positive threshold.",
+      "proposed": "ORIGINAL PEBR: hidden-word gain with downside penalty and four positive budget fractions; complete-group forward search.",
+      "preserve_forward_fixed_cap": "REVISED PEBR: receiver-preserving score, downside penalty and complete-group forward search; only cap is a positive offer.",
+      "matched_preserve_fixed": "Similarity-ranked available donors match revised PEBR actual transfer mass and contributing donor count for EACH receiver.",
+      "preserve_fixed_prefix": "Same revised score, cap and no-borrowing option; score reciprocal-rank prefixes of lengths 1..3.",
+      "weighted_hidden_fixed": "Remove only the visible-loss term; retain hidden-token-share weighting, downside utility and fixed cap.",
+      "preserve_fixed_no_downside": "Only downside lambda becomes zero; revised score, fixed cap and group search retained.",
+      "preserve_fixed_individual": "Average singleton revised gains at the same offered cap; actual-mixture audit without reranking/rejection.",
+      "preserve_fixed_single_view": "View 0 and its list only; changes BOTH retrieval coverage and predictive scoring views."
+    },
+    "metrics": {
+      "coherence": [
+        "npmi",
+        "cv"
+      ],
+      "complementary": [
+        "diversity",
+        "seed_pair_stability"
+      ],
+      "descriptor_words": 10,
+      "npmi_unit": "presence in original posts",
+      "cv_window": 110,
+      "reference": "same original unaugmented corpus within each language; borrowed counts excluded"
+    },
+    "aggregation": {
+      "unit": "Mean per-post average log-probability gain within each protected bank",
+      "outer_repeats": "PRIMARY: mean/SD across four fresh protected banks; SECONDARY: all five including the previously used bank 2712",
+      "fitting_seeds": "No final topic models are fitted; final-model seeds are not audit replicates",
+      "paired": "Same target words, query cohort, folds, predictor and permitted donor catalogue for every policy",
+      "uncertainty": "Overlapping word holdouts on the same corpus; SD is not a confidence interval"
+    },
+    "single_display_run": {
+      "selection_mask_base": 3711,
+      "final_model_seed": 0
+    },
+    "timing": "separate reference fitting, masked retrieval, selection, final fitting and reporting; include total cost",
+    "runtime": {
+      "download_or_install": false,
+      "missing_assets": "fail without modifying environment",
+      "cpu_threads": 4,
+      "gpu_index": 0,
+      "embedding_batch_size": 32,
+      "embedding_precision": "float32",
+      "tf32": false,
+      "run_corpora_sequentially": true,
+      "encoder_max_lengths": {
+        "transport_grievance": 256,
+        "chinese_pooled": 128
+      }
+    },
+    "baseline_configuration_review": "separate later-stage study; source preservation and finite training do not establish adequate tuning",
+    "annotations": "not used in borrowing or topic fitting; no synthetic Chinese service labels",
+    "historical_K16": "retained with original version; not relabelled and not part of the new core grid",
+    "disclosure": "Existing corpus outcomes at K=8/12 have been examined; this is a prespecified revision, not blind confirmation",
+    "outcome_policy": "retain every declared condition; no score-based seed/corpus deletion; simplify or narrow claims when warranted",
+    "runner_implementation_pending": false,
+    "guaranteed_performance_or_journal_rating": false,
+    "anchor_policy": "preserve_forward_fixed_cap",
+    "development_mask_base": 2711,
+    "stage": "repeated_protected_word_audit",
+    "new_final_fits": 0,
+    "fixed_reference_seed": 0,
+    "fixed_family_folds": true,
+    "inferential_scope": "Prediction on protected receiver word types with fixed fold-excluded predictors; not final-model or new-corpus performance.",
+    "selection_score": "hidden-token-share times hidden gain minus visible-token-share times visible loss",
+    "positive_offered_weights": [
+      0.3333333333333333
+    ],
+    "development_bank_in_validation_summary": false,
+    "changes_allowed_during_run": false,
+    "later_validation_pending": [
+      "protected-word replication for revised rule",
+      "reference initialization and fold sensitivity",
+      "neural baseline fidelity/tuning checks",
+      "method-dependent table, figure and case regeneration"
+    ],
+    "outer_target_bases": [
+      2712,
+      3712,
+      4712,
+      5712,
+      6712
+    ],
+    "known_outer_target_base": 2712,
+    "fresh_outer_target_bases": [
+      3712,
+      4712,
+      5712,
+      6712
+    ],
+    "inner_mask_base": 2711,
+    "outer_type_fraction": 0.2,
+    "outer_minimum_types": 1,
+    "loss_threshold": 1e-10,
+    "audit_configurations": 30,
+    "policy_configuration_summaries": 330,
+    "targets_opened_after_configuration_actions_saved": true,
+    "tuning_from_audit_outcomes": false,
+    "zero_transfer_queries_retained_in_common_cohort": true
+  },
+  "source_manifest": {
+    "accepted_step5_protocol.json": "36a5063754ff7bb9530fffc521db3672f92c4cab0625f70d9b2619df0b41ece3",
+    "accepted_step5_source_manifest.json": "a3d53a114858a1e3acf41f5eb34280c6214ee7ff4dccb307635ca66cec1084aa",
+    "accepted_step5_tables_sha256.json": "cdc242400accd6d5bb1ae3a8b99c5f89bf437fe5b5f31aaa43e095b10b1be191",
+    "pebr_protected_words/__init__.py": "f42f14fe4317d31f7cc370945b51b6be6d76a5806c13e4c4ef6a578a16d662a5",
+    "pebr_protected_words/aggregate.py": "07ef1de10d720beffcf63b2094a09f423c678b93e3181b21294c7fb7345b4850",
+    "pebr_protected_words/banks.py": "6e5eb402dc16173700f4ef0ab35c93271108c52451c754216b72e3165fc0e737",
+    "pebr_protected_words/engine.py": "34d15eb2b43cb1c20038b1383b086229e13019fbc52c6a807ee502a193659b2d",
+    "pebr_protected_words/gate.py": "a1a438773faaabd43ddb60a60abe1604c2679e0ee78adc803e81d895d36e10bb",
+    "pebr_protected_words/helpers.py": "88cdf02ecb00d090b42f71c279e665b443fa3d4d0d473fc44c753fecc4973f43",
+    "pebr_protected_words/outcomes.py": "71bde183296fa746ec064c5426ef2378a7d12ed3b7e600f3d7167473aba98a31",
+    "pebr_protected_words/selection.py": "9fac2ffb5b36a14a0afac97382b34e50484222d1d217762946019c4f56e6de3f",
+    "pebr_protected_words/storage.py": "684b2159b8c4bb71dad6dec5cdba524e83774be09d2fedcb05ef94c95fb0a917",
+    "pebr_step6_protected_words.py": "0c215a97557511060b2894592ca1b3a00024fa7ae58a8925e7b45fd552a6b949",
+    "pebr_step6_tests/test_protected_words.py": "b8607869e67f279730c0260fc8fc8904c3297a418a842113f3942d45f80db9fd",
+    "pebr_step6_tests/test_windows_paths.py": "f41637b8d3151466e2367ed15879f5dbe915e34376c4206b511a4cb9a69d27d8"
+  },
+  "tables_sha256": {
+    "results/RESULTS.md": "252571a83c374f6184eb8519f9a5bb2a14d5fa69dd114039bc01390412a41857",
+    "results/bank_summaries.csv": "bf2786a0b01b7b7cedf374f08ef1816ed09d5f4ff6a9b9d3c7a8293051dc8692",
+    "results/coverage.json": "2df5173f1d52f60533814e973cad173d8a933cfbb29d9ef67c233ca23d347e32",
+    "results/five_bank_summaries.csv": "d747a0a99ec9954bbfc1d473463fbefc18e6120fea2c4bc6792c956bc0f4ae44",
+    "results/fresh_protected_bank_summaries.csv": "bb550d214909224f90c5a1e02040ad101c3848f306f8685fd25090421ecbe637",
+    "results/paired_fresh_protected_contrasts.csv": "1387799aa93f2dad97baa946edec24e7aa8be1031eaf0a378b16de3b45440cc4",
+    "results/paired_protected_contrasts.csv": "133336864ddd5f9add302c0bde400691cffe0030672740420896dd859c55f804"
+  }
+}

@@ -1,0 +1,17 @@
+kind: saved_corpus_size_figure
+source_run_id: 20261028T170015451848Z_project_run_7add5b34
+archive_directory: assets/corpus_size_analysis/source
+source_manifest: assets/corpus_size_analysis/source_manifest.json
+output_directory: outputs/paper/corpus_size_analysis
+topic_count: 12
+model_seeds: [0, 1, 2, 3, 4]
+sampling_ladders: [0, 1, 2, 3, 4]
+target_sizes: [100, 200, 400, 600]
+datasets: [primary, external]
+methods: [nmf_original, nmf_similarity, similarity_matched, proposed]
+metrics: [npmi, cv]
+figure:
+  width_inches: 7.1
+  height_inches: 3.35
+  png_dpi: 300
+  uncertainty: sampling_ladder_sd_after_seed_averaging

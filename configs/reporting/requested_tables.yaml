@@ -1,0 +1,5 @@
+schema_version: 1
+kind: saved_study_tables
+source_run_id: 20261028T170015451848Z_project_run_7add5b34
+snapshot_directory: assets/archived_study_results
+outputs: outputs/paper/requested_results

@@ -1,0 +1,9 @@
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+gensim==4.4.0
+geomloss==0.2.6
+torch-kmeans==0.2.0
+joblib==1.4.2
+smart-open==6.4.0
+threadpoolctl==3.5.0

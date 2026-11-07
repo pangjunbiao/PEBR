@@ -1,0 +1,5 @@
+# Execution Foundation: validated configuration; future stages are gated.
+evaluation:
+  prediction:
+    enabled: true
+    outer_fraction: 0.2
